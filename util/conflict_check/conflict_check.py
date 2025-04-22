@@ -40,7 +40,7 @@ class ConflictChecker:
     def from_json(self, lang):
 
         ###FOR DEBUGGING
-        with open(r'')
+            
         #Pull in the DB if it exists
         try:
             with open(self.db, "r", encoding='utf-8') as stored_db:
@@ -64,60 +64,21 @@ class ConflictChecker:
                     "Files": {}
                 }
 
-        #For each LXTXT
-        for file in self.lxtxtDB.files:
-            id_relpath = str(file.path.relative_to(self.lxtxtDB.assets_root))
-            relpath = str(file.path.relative_to(self.lxtxtDB.assets_root).with_suffix(''))
-            data["Files"][relpath] = {'Conflict' : False,
-                                            'Strings' : {}}
-            try:
-                json_file = json_db["Files"][relpath]
-            except:
-                json_file = None
-            for row in file.interface.Rows:
-                if not row.LanguageCells[lang]:
-                        continue
-                string_ID = f'{id_relpath}-{row.Label}'
-                data["Files"][relpath]["Strings"][string_ID] = {
-                                                                "Conflict": False,
-                                                                "TB": "",
-                                                                "TB Status": ""
-                                                                }
-                try:
-                    json_row = json_file["Strings"][string_ID]
-                except:
-                    json_row = None
-                
-                textbridge_text = row.LanguageCells[lang].Text.replace("\r","")
-                textbridge_status = str(row.LanguageCells[lang].Status)
-
-                if json_row:
-                    data["Files"][relpath]['Strings'][string_ID]['Conflict'] = True if textbridge_text != json_row['TB'] else False
-                    if data["Files"][relpath]['Strings'][string_ID]['Conflict'] == True:
-                        
-                        data["Files"][relpath]['Conflict'] = True
-                    if data["Files"][relpath]['Conflict'] == True:
-                        data['DB']['Conflict'] = True
-                else:
-                    data["Files"][relpath]['Strings'][string_ID]['Conflict'] = False
-
-                data["Files"][relpath]['Strings'][string_ID]['TB'] = textbridge_text
-                data["Files"][relpath]['Strings'][string_ID]['TB Status'] = textbridge_status
-                
-        if self.lxvbfDB:
-            for file in self.lxvbfDB.files:
-                id_relpath = str(file.path.relative_to(self.lxvbfDB.assets_root))
-                relpath = str(file.path.relative_to(self.lxvbfDB.assets_root).with_suffix(''))
-                data["Files"][relpath] = {"Conflict": False,
-                                            "Strings": {}}
+        with open(r'M:\Projects\Crown\Tooling\CROWN_LocLink\resources\conflict_check\conflict_check_compare.txt', encoding="utf8") as compare_file:
+            #For each LXTXT
+            for file in self.lxtxtDB.files:
+                id_relpath = str(file.path.relative_to(self.lxtxtDB.assets_root))
+                relpath = str(file.path.relative_to(self.lxtxtDB.assets_root).with_suffix(''))
+                data["Files"][relpath] = {'Conflict' : False,
+                                                'Strings' : {}}
                 try:
                     json_file = json_db["Files"][relpath]
                 except:
                     json_file = None
                 for row in file.interface.Rows:
-                    if not row.Cells[lang]:
-                        continue
-                    string_ID = f'{id_relpath}-{row.Label}' if row.Cells[lang].VoiceFileName == "" else f'{id_relpath}-{row.Cells[lang].VoiceFileName}'
+                    if not row.LanguageCells[lang]:
+                            continue
+                    string_ID = f'{id_relpath}-{row.Label}'
                     data["Files"][relpath]["Strings"][string_ID] = {
                                                                     "Conflict": False,
                                                                     "TB": "",
@@ -128,24 +89,67 @@ class ConflictChecker:
                     except:
                         json_row = None
                     
-                    voicebridge_text = row.Cells[lang].Text.Text.replace("\r","")
-                    voicebridge_status = str(row.Cells[lang].Text.Status)
+                    textbridge_text = row.LanguageCells[lang].Text.replace("\r","")
+                    textbridge_status = str(row.LanguageCells[lang].Status)
 
                     if json_row:
-                        data["Files"][relpath]["Strings"][string_ID]["Conflict"] = True if voicebridge_text != json_row["TB"] else False
-                        if data["Files"][relpath]["Strings"][string_ID]["Conflict"] == True:
-                            data["Files"][relpath]["Conflict"] = True
-                        if data["Files"][relpath]["Conflict"] == True:
-                            data["DB"]["Conflict"] = True
+                        data["Files"][relpath]['Strings'][string_ID]['Conflict'] = True if textbridge_text != json_row['TB'] else False
+                        if data["Files"][relpath]["Strings"][string_ID]["Conflict"]:
+                            compare_file.write(f'VB Text: {voicebridge_text} | memoQ Text: {json_row["TB"]}')
+                        if data["Files"][relpath]['Strings'][string_ID]['Conflict'] == True:           
+                            data["Files"][relpath]['Conflict'] = True
+                        if data["Files"][relpath]['Conflict'] == True:
+                            data['DB']['Conflict'] = True
                     else:
-                        data["Files"][relpath]["Strings"][string_ID]["Conflict"] = False
+                        data["Files"][relpath]['Strings'][string_ID]['Conflict'] = False
 
-                    data["Files"][relpath]["Strings"][string_ID]["TB"] = voicebridge_text
-                    data["Files"][relpath]["Strings"][string_ID]["TB Status"] = voicebridge_status
+                    data["Files"][relpath]['Strings'][string_ID]['TB'] = textbridge_text
+                    data["Files"][relpath]['Strings'][string_ID]['TB Status'] = textbridge_status
+                    
+            if self.lxvbfDB:
+                for file in self.lxvbfDB.files:
+                    id_relpath = str(file.path.relative_to(self.lxvbfDB.assets_root))
+                    relpath = str(file.path.relative_to(self.lxvbfDB.assets_root).with_suffix(''))
+                    data["Files"][relpath] = {"Conflict": False,
+                                                "Strings": {}}
+                    try:
+                        json_file = json_db["Files"][relpath]
+                    except:
+                        json_file = None
+                    for row in file.interface.Rows:
+                        if not row.Cells[lang]:
+                            continue
+                        string_ID = f'{id_relpath}-{row.Label}' if row.Cells[lang].VoiceFileName == "" else f'{id_relpath}-{row.Cells[lang].VoiceFileName}'
+                        data["Files"][relpath]["Strings"][string_ID] = {
+                                                                        "Conflict": False,
+                                                                        "TB": "",
+                                                                        "TB Status": ""
+                                                                        }
+                        try:
+                            json_row = json_file["Strings"][string_ID]
+                        except:
+                            json_row = None
+                        
+                        voicebridge_text = row.Cells[lang].Text.Text.replace("\r","")
+                        voicebridge_status = str(row.Cells[lang].Text.Status)
 
-        with open(self.db, "w", encoding='utf-8') as stored_db:
-            json.dump(data, stored_db, ensure_ascii=False)
-        return data
+                        if json_row:
+                            data["Files"][relpath]["Strings"][string_ID]["Conflict"] = True if voicebridge_text != json_row["TB"] else False
+                            if data["Files"][relpath]["Strings"][string_ID]["Conflict"]:
+                                compare_file.write(f'VB Text: {voicebridge_text} | memoQ Text: {json_row["TB"]}')
+                            if data["Files"][relpath]["Strings"][string_ID]["Conflict"] == True:
+                                data["Files"][relpath]["Conflict"] = True
+                            if data["Files"][relpath]["Conflict"] == True:
+                                data["DB"]["Conflict"] = True
+                        else:
+                            data["Files"][relpath]["Strings"][string_ID]["Conflict"] = False
+
+                        data["Files"][relpath]["Strings"][string_ID]["TB"] = voicebridge_text
+                        data["Files"][relpath]["Strings"][string_ID]["TB Status"] = voicebridge_status
+
+            with open(self.db, "w", encoding='utf-8') as stored_db:
+                json.dump(data, stored_db, ensure_ascii=False)
+            return data
 
     def update_conflict_status(self, relpath, context_id, en_text):
         if en_text != self.data_dict["Files"][relpath]['Strings'][context_id]['TB']:
