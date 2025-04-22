@@ -1,0 +1,9 @@
+<br>Hello,
+<br>
+<br>This is CROWN LocLink with your daily progress report.
+<br>
+<br><b><h3>MOST RECENT SNAPSHOT</h3></b>
+{progress-data}
+<img src="cid:burndown-chart">
+<hr>
+<br>This report was compiled automatically by CROWN LocLink. If something looks wrong, please contact James Arbogast (james.arbogast@segaamerica.com).

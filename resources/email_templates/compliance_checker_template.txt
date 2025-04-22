@@ -1,0 +1,12 @@
+Hello,<br><br>
+
+Noncompliant strings have been detected in the text for Edge.<br><br>
+
+====NONCOMPLIANT STRINGS====<br><br>
+
+<font style="color:red">{noncompliant_strings}</font><br>
+
+====================================<br><br>
+
+This report was compiled automatically by LocLink.<br>
+If something looks wrong, please contact Dan Sunstrum (dan.sunstrum@segaamerica.com).

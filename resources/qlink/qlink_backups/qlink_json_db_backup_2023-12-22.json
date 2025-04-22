@@ -1,0 +1,26 @@
+{
+  "json_location": "M:\\Projects\\Edge_Tests\\EDGE_LocLink\\resources\\qlink\\qlink_json_db.json",
+  "general_settings": {
+    "memoQ_project_data": [
+      {
+        "name": "Edge",
+        "ID": "861bbb2b-3f99-ee11-96f8-000c29e84d50",
+        "usage": "t,r1,r2"
+      }
+    ],
+    "admin_email_list": [
+      "james.arbogast@segaamerica.com",
+      "luke.holland@segaamerica.com"
+    ]
+  },
+  "reporting_settings": {
+    "reporting_email_list": [
+      "james.arbogast@segaamerica.com",
+      "luke.holland@segaamerica.com"
+    ],
+    "last_report": "21-12-2023 12:08:41",
+    "report_frequency": "3"
+  },
+  "progress_data": { "Edge": [] },
+  "last_updated": "21-12-2023 12:08:41"
+}

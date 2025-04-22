@@ -1,0 +1,11 @@
+{"json_location": "M:\\Projects\\Crown\\Tooling\\CROWN_LocLink\\resources\\qlink\\qlink_json_db.json", 
+    "general_settings": 
+    {"memoQ_project_data": [{"name": "Crown", "ID": "", "usage": "t,r1,r2"}], 
+        "admin_email_list": ["james.arbogast@segaamerica.com"]}, 
+        "reporting_settings": 
+            {"reporting_email_list": ["james.arbogast@segaamerica.com"], 
+            "last_report": "21-12-2023 12:08:41", "report_frequency": "3"}, 
+        "progress_data": 
+            {"Crown": []},
+        "last_updated": "08-04-2025 07:05:52"
+}

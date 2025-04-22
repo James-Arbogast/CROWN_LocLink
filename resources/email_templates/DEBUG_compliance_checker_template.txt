@@ -1,0 +1,12 @@
+Hello,<br><br>
+
+Noncompliant strings have been detected in the text for Crown.<br><br>
+
+====NONCOMPLIANT STRINGS====<br><br>
+
+<font style="color:red">{noncompliant_strings}</font><br>
+
+====================================<br><br>
+
+This report was compiled automatically by LocLink.<br>
+If something looks wrong, please contact James Arbogast (james.arbogast@segaamerica.com).

@@ -1,0 +1,19 @@
+Reading Project Preferences.
+Creating Tracker objects.
+Pulling down changes from SVN server.
+Did not update local SVN repo.
+Creating LXTXT Database.
+Creating LXVBF Database.
+Created LXTXT + LXVBF DBs.
+Creating memoQ Database.
+Created memoQ DB.
+Creating converter.
+Created converter object.
+Skipped memoQ export
+Porting XLIFF data into the LXTXT Database.
+Ported English text into lxtxtDB.
+Pushing changes to Text Bridge
+Changes not committed to SVN.
+Backing up XLIFF data.
+Backed up XLIFF data.
+Clearing out output folders.

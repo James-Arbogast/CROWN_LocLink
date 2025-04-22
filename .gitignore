@@ -1,0 +1,10 @@
+lxtxt_finished.txt
+lxtxt_total.txt
+lxvbf_finished.txt
+lxvbf_total.txt
+change_tracking_data.json
+four_week_fig.png
+progress_data.csv
+resourceschange_tracking_data_backup.json
+*.pyc
+launch.json

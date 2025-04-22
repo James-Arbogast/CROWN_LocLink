@@ -1,0 +1,1 @@
+py -u main.py -x -s -m

@@ -1,0 +1,9 @@
+Hello,<br><br>
+
+An unhandled exception occurred during EDGE_Loclink's daily automated tasks<br><br>
+
+############################################<br><br>
+
+<font style="color: red"><pre>{error_traceback}</pre></font><br><br>
+
+############################################

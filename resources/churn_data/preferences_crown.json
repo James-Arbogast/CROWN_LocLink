@@ -1,0 +1,20 @@
+{
+    "textbridge_repo_location_1": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\1",
+    "textbridge_repo_location_2": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\2",
+    "textbridge_repo_location_3": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\3",
+    "textbridge_repo_location_4": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\4",
+    "textbridge_repo_location_5": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\5",
+    "textbridge_repo_location_6": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\6",
+    "textbridge_repo_location_7": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\7",
+    "textbridge_repo_location_8": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\8",
+    "textbridge_repo_location_9": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\9",
+    "textbridge_repo_location_10": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\10",
+    "textbridge_repo_location_11": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\11",
+    "textbridge_repo_location_12": "M:\\Voice Bridge Churn Tracker\\Repos\\Crown\\12",
+    "textbridge_tool_location": "M:\\Voice Bridge Churn Tracker\\tools",
+    "ignore_users": [],
+    "data_file": "M:\\Projects\\Crown\\Tooling\\Crown_LocLink\\resources\\churn_data\\Crown_data.txt",
+    "text_log": "M:\\Projects\\Crown\\Tooling\\Crown_LocLink\\resources\\churn_data\\Crown_text_log.txt",
+    "start_revision": 0,
+    "end_revision": 0
+}

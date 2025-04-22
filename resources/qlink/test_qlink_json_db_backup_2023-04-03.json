@@ -1,0 +1,22 @@
+{
+  "json_location": "M:\\Projects\\Edge\\Tooling\\EDGE_LocLink\\resources\\qlink\\qlink_json_db.json",
+  "general_settings": {
+    "memoQ_project_data": [
+      {
+        "name": "Edge",
+        "ID": "5d794f3c-bab7-ed11-96db-000c29e84d50",
+        "usage": "t,r1,r2"
+      }
+    ],
+    "admin_email_list": ["testmail"]
+  },
+  "reporting_settings": {
+    "reporting_email_list": ["testmail2"],
+    "last_report": "01-03-2023 13:59:22",
+    "report_frequency": "3"
+  },
+  "progress_data": {
+    "Edge": []
+  },    
+  "last_updated": "29-03-2023 16:16:07"
+}

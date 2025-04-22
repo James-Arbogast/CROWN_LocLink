@@ -1,0 +1,12 @@
+Hello,<br><br>
+
+{conf_num} conflict(s) has been detected in the text for CROWN.<br><br>
+
+====CONFLICTED FILES AND STRINGS====<br><br>
+
+<font style="color:red">{conflict_list}</font><br>
+
+====================================<br><br>
+
+This report was compiled automatically by LocLink.<br>
+If something looks wrong, please contact James Arbogast (james.arbogast@segaamerica.com) or Luke Holland (luke.holland@segaamerica.com).

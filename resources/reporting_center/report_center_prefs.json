@@ -1,0 +1,9 @@
+{
+    "reporting_center_location" : "L:\\Team Resources\\Tooling Resources\\Frost",
+    "proj_name" : "Crown",
+    "json_location" : "M:\\Projects\\Crown\\Tooling\\CROWN_LocLink\\resources\\reporting_center\\report_center_prefs.json",
+    "resources_location" : "M:\\Projects\\Crown\\Tooling\\CROWN_LocLink\\resources",
+    "overview_location" : "L:\\Team Resources\\Tooling Resources\\Frost\\Overview",
+    "projects_location" : "L:\\Team Resources\\Tooling Resources\\Frost\\Projects",
+    "dashboard" : "L:\\Team Resources\\Tooling Resources\\Frost\\PyDashboard.py"
+}

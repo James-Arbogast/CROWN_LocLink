@@ -1,0 +1,9 @@
+<br>Hello,
+<br>
+<br>This is Connor-TBX with your weekly progress report.
+<br>
+<br><b><h3>MOST RECENT SNAPSHOT</h3></b>
+{progress-data}
+<img src="cid:burndown-chart">
+<hr>
+<br>This report was compiled automatically by Connor-TBX. If something looks wrong, please contact Dan Sunstrum.

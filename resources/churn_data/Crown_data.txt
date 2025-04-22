@@ -1,0 +1,1032 @@
+File	Rev	ID	Old	New	Churn	Date
+item.lxtxt	127	crw_customize_arms_long_blunt_00;explanation	先端に包丁の刃をつけたバール	先端に包丁をつけたバール	14	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_short_blade_grip_00;name	皮の切れ端	革の柄	5	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_short_blade_grip_00;explanation	"乾いた皮の切れ端
+
+短い刃物のパーツになる"	"革製の柄
+
+短い刃物のパーツになる"	21	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_short_blade_grip_01;name	ボロ切れ	布の巻柄	4	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_short_blade_grip_01;explanation	"薄汚れたボロ切れ
+
+短い刃物のパーツになる"	"ボロ切れを巻いた柄
+
+短い刃物のパーツになる"	22	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_long_blunt_grip_00;explanation	"先端が腐りかけているバール
+
+長い鈍器のパーツになる"	"錆びてくたびれたバール
+
+長い鈍器のパーツになる"	26	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_long_blunt_addon_00;name	折れた包丁	包丁の塊	5	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_long_blunt_addon_00;explanation	"包丁の残骸
+
+長い鈍器のパーツになる"	"包丁の残骸を集めたもの
+
+長い鈍器のパーツになる"	24	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_long_blunt_addon_01;name	壊れたハサミ	ハサミの塊	6	2025-04-09
+item.lxtxt	127	crw_customize_arms_parts_long_blunt_addon_01;explanation	"ハサミの残骸
+
+長い鈍器のパーツになる"	"ハサミの残骸を集めたもの
+
+長い鈍器のパーツになる"	25	2025-04-09
+item.lxtxt	162	crw_customize_arms_parts_short_blade_grip_00;explanation	"革製の柄
+
+短い刃物のパーツになる"	革製の柄	17	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_short_blade_grip_01;explanation	"ボロ切れを巻いた柄
+
+短い刃物のパーツになる"	ボロ切れを巻いた柄	22	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_short_blade_blade_00;explanation	"柄のないナイフ
+
+短い刃物のパーツになる"	柄のないナイフ	20	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_short_blade_blade_01;explanation	"柄のない包丁
+
+短い刃物のパーツになる"	柄のない包丁	19	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_short_blade_blade_02;explanation	"柄のない鉈
+
+短い刃物のパーツになる"	柄のない鉈	18	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_long_blunt_grip_00;explanation	"錆びてくたびれたバール
+
+長い鈍器のパーツになる"	錆びてくたびれたバール	24	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_long_blunt_grip_01;explanation	"折れた持ち手を補強したバール
+
+長い鈍器のパーツになる"	折れた持ち手を補強したバール	27	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_long_blunt_addon_00;explanation	"包丁の残骸を集めたもの
+
+長い鈍器のパーツになる"	包丁の残骸を集めたもの	24	2025-04-11
+item.lxtxt	162	crw_customize_arms_parts_long_blunt_addon_01;explanation	"ハサミの残骸を集めたもの
+
+長い鈍器のパーツになる"	ハサミの残骸を集めたもの	25	2025-04-11
+talk\text\crw_shop.lxtxt	49	shop_minami_yami_001;talk_text	……5万だ	……1万だ	5	2025-03-30
+talk\text\crw_shop.lxtxt	49	shop_minami_yami_002;talk_text	……冷やかしなら　とっとと消えろ	……5万だ	16	2025-03-30
+talk\text\crw_shop.lxtxt	49	shop_minami_yami_003;talk_text	……その荷物じゃ　持てねえだろ	……10万だ	15	2025-03-30
+talk\text\crw_shop.lxtxt	49	shop_minami_yami_004;talk_text	……金が足りねえよ　ボウズ	……冷やかしなら　とっとと消えろ	16	2025-03-30
+talk\text\crw_shop.lxtxt	49	shop_minami_yami_005;talk_text	……持っていけ	……その荷物じゃ　持てねえだろ	15	2025-03-30
+talk\text\crw_shop.lxtxt	76	shop_minami_yami_006;talk_text	……金が足りねえよ　ボウズ	……金が足りねえよ	13	2025-04-04
+talk\text\crw_shop.lxtxt	119	shop_minami_yami_008;talk_text	大東だ	対話	3	2025-04-09
+talk\text\crw_shop.lxtxt	119	shop_minami_yami_009;talk_text	吉田だ	礼賛	3	2025-04-09
+talk\text\crw_shop.lxtxt	119	shop_minami_yami_010;talk_text	氷室だ	帝国	3	2025-04-09
+talk\text\crw_shop.lxtxt	119	shop_minami_yami_011;talk_text	高木だ	反乱	3	2025-04-09
+talk\text\crw_shop.lxtxt	119	shop_minami_yami_012;talk_text	太田だ	幸福	3	2025-04-09
+talk\text\crw_shop.lxtxt	119	shop_minami_yami_013;talk_text	吉岡だ	陰謀	3	2025-04-09
+talk\text\crw_shop.lxtxt	119	shop_minami_yami_014;talk_text	沖田だ	経済	3	2025-04-09
+talk\text\crw_shop.lxtxt	121	shop_kokura_daito_028;talk_text	…………	"（…………　反応が無いな。
+
+　この合言葉じゃなかったか？）"	30	2025-04-09
+talk\text\crw_shop.lxtxt	150	shop_kokura_udon_001;talk_text	いらっしゃい！	【翻訳不要】いらっしゃい！	13	2025-04-10
+talk\text\crw_shop.lxtxt	150	shop_kokura_tabako_001;talk_text	いらっしゃい！	【翻訳不要】いらっしゃい！	13	2025-04-10
+talk\text\crw_shop.lxtxt	150	shop_kokura_kusuri_001;talk_text	いらっしゃい！	【翻訳不要】いらっしゃい！	13	2025-04-10
+talk\text\crw_shop.lxtxt	150	shop_minami_sake_001;talk_text	らっしゃい！	【翻訳不要】らっしゃい！	12	2025-04-10
+talk\text\crw_shop.lxtxt	152	shop_kokura_udon_001;talk_text	【翻訳不要】いらっしゃい！	いらっしゃい！	13	2025-04-10
+talk\text\crw_shop.lxtxt	152	shop_kokura_tabako_001;talk_text	【翻訳不要】いらっしゃい！	いらっしゃい！	13	2025-04-10
+talk\text\crw_shop.lxtxt	152	shop_kokura_kusuri_001;talk_text	【翻訳不要】いらっしゃい！	いらっしゃい！	13	2025-04-10
+talk\text\crw_shop.lxtxt	152	shop_minami_sake_001;talk_text	【翻訳不要】らっしゃい！	らっしゃい！	12	2025-04-10
+talk\select\select\choice\crw_select_shop_minami_yami.lxtxt	119	select_shop_minami_yami_word01;opt	大東だ	対話	3	2025-04-09
+talk\select\select\choice\crw_select_shop_minami_yami.lxtxt	119	select_shop_minami_yami_word02;opt	吉田だ	礼賛	3	2025-04-09
+talk\select\select\choice\crw_select_shop_minami_yami.lxtxt	119	select_shop_minami_yami_word03;opt	氷室だ	帝国	3	2025-04-09
+talk\select\select\choice\crw_select_shop_minami_yami.lxtxt	119	select_shop_minami_yami_word04;opt	高木だ	反乱	3	2025-04-09
+talk\select\select\choice\crw_select_shop_minami_yami.lxtxt	119	select_shop_minami_yami_word05;opt	太田だ	幸福	3	2025-04-09
+talk\select\select\choice\crw_select_shop_minami_yami.lxtxt	119	select_shop_minami_yami_word06;opt	吉岡だ	陰謀	3	2025-04-09
+talk\select\select\choice\crw_select_shop_minami_yami.lxtxt	119	select_shop_minami_yami_word07;opt	沖田だ	経済	3	2025-04-09
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_d01_0100_001;talk_text	おう、大東。今ちょっといいか？	おう　大東　今ちょっといいか？	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_d01_0100_002;talk_text	っち、なんだよ。	っち　なんだよ	8	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0200_001;talk_text	どうかしましたか	どうかしましたか？	9	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_001;talk_text	実は最近この辺でコソ泥が出ててな。	実は最近この辺でコソ泥が出ててな	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_001b;talk_text	大きな声じゃ言えんが、八島組の金も盗まれた。	大きな声じゃ言えんが　八島組の金も盗まれた	22	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_002;talk_text	"そこでお前の出番だ。
+
+コソ泥から金を取り返してきてくれ。"	"そこでお前の出番だ
+
+コソ泥から金を取り返してきてくれ"	29	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0200_003;talk_text	そんなん俺やなくて警官に言えばええやないですか。	そんなの俺じゃなくて警官に言えばいいじゃないですか	25	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_003;talk_text	"アホか。天下の八島組がコソ泥被害で警察に泣きついた、
+
+なんて広まったら面目丸つぶれだろうが。"	"アホか　天下の八島組がコソ泥被害で警察に泣きついた
+
+なんて広まったら面目丸つぶれだろうが"	47	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_003b;talk_text	"それに、まだ組の金が盗られたことは
+
+兄貴たちもまだ知らねぇ。"	"それに　まだ組の金が盗られたことは
+
+兄貴たちもまだ知らねぇ"	31	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0200_004;talk_text	"要はバレる前に取り返して
+
+なかったことにしたいっちゅうわけですか。"	"要はバレる前に取り返して
+
+なかったことにしたいっていうわけですか"	34	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_004;talk_text	話が早いな。まぁそういうことだ。	話が早いな　まぁそういうことだ	16	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_004b;talk_text	"ちゃんと金が戻ってきたらお前にも
+
+小遣いをやるよ。"	"ちゃんと金が戻ってきたらお前にも
+
+小遣いをやるよ"	26	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0200_005;talk_text	……分かりました。	……分かりました	9	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0200_005b;talk_text	"ほんで、その泥棒ってのはどんな背格好で
+
+どこにおるんです？"	"それで　その泥棒ってのはどんな背格好で
+
+どこにいるんです？"	30	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_005;talk_text	分からん。	分からん	5	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_006;talk_text	"それが分かったらとっくに捕まえてるだろ。
+
+だからその聞き込みからお前がやるんだよ。"	"それが分かったらとっくに捕まえてるだろ
+
+だからその聞き込みからお前がやるんだよ"	42	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0200_007;talk_text	"（組の金盗まれたくせに調べんのは面倒とか
+
+　ええ性格しとるわ）"	"（組の金盗まれたくせに調べるのは面倒とか
+
+　いい性格してるな）"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_007;talk_text	"カフェーのマスターは噂好きだし、金持ちや
+
+街の連中とも親しいから何か知ってるかもな。"	"カフェーのマスターは噂好きだし　金持ちや
+
+街の連中とも親しいから何か知ってるかもな"	43	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_007b;talk_text	"んじゃ、頼んだぜ。
+
+金取り返したら八島組まで来てくれ。"	"んじゃ　頼んだぜ
+
+金取り返したら八島組まで来てくれ"	28	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_007c;talk_text	あ、そうだ。	あ　そうだ	6	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_008;talk_text	"そのコソ泥だけどな。金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ。"	"そのコソ泥だけどな　金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ"	43	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_008b;talk_text	殺した後に金を取り戻すってのも悪くねぇかもな。	殺した後に金を取り戻すってのも悪くねぇかもな	23	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_p01_0200_008c;talk_text	その辺はお前に任せる。じゃあな。	その辺はお前に任せる　じゃあな	16	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0300_001;talk_text	マスター、ちょっとええか？	マスター　ちょっといいか？	13	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0300_002;talk_text	"最近この辺で金持ちの家にコソ泥が出とるっちゅう話
+
+聞いたことないか？"	"最近この辺で金持ちの家にコソ泥が出てるっていう話
+
+聞いたことないか？"	35	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0300_003;talk_text	ホンマか……！	本当か……！	7	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0300_004;talk_text	窃盗団っちゅうことか。	窃盗団っていうことか	11	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0300_005;talk_text	"（なるほど、とはいえ組の金が盗られとるんや。
+
+　引き下がるわけにはいかんな）"	"（なるほど　とはいえ組の金が盗られてるんだ
+
+　引き下がるわけにはいけないな）"	39	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0300_006;talk_text	そこをなんとか！	"多少の荒事は覚悟の上だ
+
+どうしても取り返さなきゃいけないものがあってな"	36	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_0300_007;talk_text	"あんたのお眼鏡にかなったら合格っちゅうわけか。
+
+ええやろ……"	そこをなんとか！	31	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_0400_001;talk_text	ちょっと待ちなよ。	ちょっと待ちなよ	9	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_0400_002;talk_text	"話は聞かせてもらったよ。
+
+実はアタシもそのコソ泥には心当たりがあってね。"	"話は聞かせてもらったよ
+
+実はアタシもそのコソ泥には心当たりがあってね"	37	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_0400_002b;talk_text	"アタシの頼みを聞いてくれたら教えてあげても良いよ。
+
+そこのマスターみたいに粗暴な話じゃないから安心しな。"	"アタシの頼みを聞いてくれたら教えてあげても良いよ
+
+そこのマスターみたいに粗暴な話じゃないから安心しな"	53	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_0400_002;talk_text	なんやその頼みって。	なんだその頼みって	10	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_0400_003;talk_text	ちょっと薬を買いに行ってもらいたいのさ。	ちょっと薬を買いに行ってもらいたいのさ	20	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_0400_003b;talk_text	"薬屋のオヤジはワケあってアタシには
+
+売ってくれなくなっちまった。"	"薬屋のオヤジはワケあってアタシには
+
+売ってくれなくなっちまった"	33	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_0400_003c;talk_text	"だからアンタに買い出しに行ったもらおうと思ってね。
+
+あ、金は今持ってないから立て替えといてくれ。"	"だからアンタに買い出しに行ったもらおうと思ってね
+
+あ　金は今持ってないから立て替えといてくれ"	49	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_0400_003;talk_text	"（マスターの話を聞いて厄介客を追っ払うか。
+
+　薬に買い出しに行くか……）"	"（マスターの話を聞いて厄介客を追っ払うか
+
+　薬の買い出しに行くか……）"	37	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_0400_003b;talk_text	（時間もないしどっちかに決めた方が良さそうやな）	（時間もないしどっちかに決めた方が良さそうだな）	24	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_0400_004;talk_text	分かったわ。	分かった	6	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_0600_001;talk_text	ええわ。追い払うの手伝ったる。	わかった　追い払うのを手伝ってやる	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_0700_001;talk_text	"ともに迎え撃つって、もしかしてマスターも
+
+戦うんか？"	"ともに迎え撃つって　もしかしてマスターも
+
+戦うのか？"	27	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_0700_002;talk_text	そら、頼もしいわ。	それは　頼もしいな	9	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_0800_001;talk_text	"なぁアンタ。自分で言ってて情けなくないんか？
+
+食ったメシ代くらい払ったらどうや？"	"なぁアンタ　自分で言ってて情けなくないのか？
+
+食ったメシ代くらい払ったらどうだ？"	41	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1000_001;talk_text	"おう、これまで飲み食いした分の金置いて
+
+どっかいけや。アンタはもう出禁やで。"	"おう　これまで飲み食いした分の金置いて
+
+どっかいけ　アンタはもう出禁だ"	39	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1000_002;talk_text	"まだやられ足りないってんなら相手したるわ。
+
+俺もマスターもまだまだいけるで？"	"まだやられ足りないってんなら相手してやる
+
+俺もマスターもまだまだいけるぞ？"	39	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1000_003;talk_text	どや？　ツケは返ってきたか？	どうだ？　ツケは返ってきたか？	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1000_004;talk_text	"そら良かったわ。
+
+で、約束覚えとるよな？"	"それは良かったわ
+
+で　約束覚えてるよな？"	21	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1000_005;talk_text	"ちゃうわ！　コソ泥がどこにおるのか
+
+教えてくれる言うたやろ！"	"ちがう！　コソ泥がどこにいるのか
+
+教えてくれるって言っただろ！"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1100_001;talk_text	なんや、アンタも一緒にくるんか？	なんだ　アンタも一緒にくるのか？	16	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1100_002;talk_text	……大東や。	……大東だ	6	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1100_003;talk_text	おう。	おう	3	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1200_001;talk_text	"そういえばなんでマスターがコソ泥の場所知っとるんや？
+
+警察に友達でもおるんか？"	"そういえばなんでマスターがコソ泥の場所知ってるんだ？
+
+警察に友達でもいるのか？"	40	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1200_002;talk_text	"もっともらしいこと言っとるが
+
+新手の宣伝したいだけやんけ。"	"もっともらしいこと言ってるが
+
+新手の宣伝したいだけじゃないか"	31	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1300_001;talk_text	"今更やがこんな真っ昼間に泥棒なんて出るんか？
+
+普通夜やろ。"	"今更だがこんな真っ昼間に泥棒なんて出るのか？
+
+普通夜だろ"	30	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1300_002;talk_text	"ほう。しかしそこまで知っていて
+
+なんでアンタの店も盗まれたんや？"	"ほう　しかしそこまで知っていて
+
+なんでアンタの店も盗まれたんだ？"	33	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1300_003;talk_text	へぇ。まぁ連中の下調べは万全ってことか。	へぇ　まぁ連中の下調べは万全ってことか	20	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1400_001;talk_text	逃がさんで！　先手必勝や！	逃がさないぞ！　先手必勝だ！	14	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1400_002;talk_text	"そこまでや！　コソ泥！
+
+八島組から盗んだ金、返してもらうで！"	"そこまでだ！　コソ泥！
+
+八島組から盗んだ金　返してもらうぞ！"	31	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_1400_001;talk_text	くそっ、見つかったか！	くそっ　見つかったか！	11	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_1400_001b;talk_text	お前ら、手ぇ貸してくれ！	お前ら　手ぇ貸してくれ！	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_1400_002;talk_text	"お前に恨みはないが、見られて以上生かしちゃおけねぇ。
+
+俺達がいなくなったらこの街は終わっちまうんだ。"	"お前に恨みはないが　見られて以上生かしちゃおけねぇ
+
+俺達がいなくなったらこの街は終わっちまうんだ"	51	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1400_003;talk_text	あ？　なに訳の分からんこと言ってんねん。	あ？　なに訳の分からないこと言ってんだ	20	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1400_003b;talk_text	盗んだ金返す気ないなら、力づくでいかせてもらうで！	盗んだ金返す気ないなら　力づくでいかせてもらう！	25	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_1600_001;talk_text	くそっ、ここまでか……	くそっ　ここまでか……	11	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_001;talk_text	もうええやろ。大人しく盗んだ金返せや。	もういいだろ　大人しく盗んだ金を返せ	19	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_1600_002b;talk_text	"それは出来ない。あの金は渡せない……
+
+へへっ。殺すなら殺せよ。"	"それは出来ない　あの金は渡せない……
+
+へへっ　殺すなら殺せよ"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_002;talk_text	なんやと？	なんだと？	5	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_1600_001;talk_text	"そのコソ泥だけどな。金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ。"	"そのコソ泥だけどな　金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ"	43	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_1600_001b;talk_text	"殺した後に金を取り戻すってのも悪くねぇかもな。
+
+その辺はお前に任せる。じゃあな。"	"殺した後に金を取り戻すってのも悪くねぇかもな
+
+その辺はお前に任せる　じゃあな"	41	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_1600_001;talk_text	"ま、待ってくれ。
+
+カシラを……　父ちゃんを殺さないでくれ！"	"ま　待ってくれ
+
+カシラを……　父ちゃんを殺さないでくれ！"	30	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_1600_001b;talk_text	"父ちゃんは、この街の日の当たらねぇ人たちに
+
+金やメシを配ってんだ。金持ちばっか肥えやがって
+
+このくらい……　いいじゃねぇか……"	"父ちゃんは　この街の日の当たらねぇ人たちに
+
+金やメシを配ってんだ　金持ちばっか肥えやがって
+
+このくらい……　いいじゃねぇか……"	65	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_1600_001c;talk_text	"あんた、八島組って言ったな。
+
+組から盗った金だけは返す……
+
+だからここは見逃してくれ……"	"あんた　八島組って言ったな
+
+組から盗った金だけは返す……
+
+だからここは見逃してくれ……"	46	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_005;talk_text	……分かったわ。	……分かった	8	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_006;talk_text	"俺は組の金さえ返ってくればなんでもええ。
+
+他のもんには興味ないわ。"	"俺は組の金さえ返ってくればなんでもいい
+
+他のものには興味ない"	34	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_006b;talk_text	それに、盗られた方が間抜けやったのかもしれんしな。	それに　盗られた方が間抜けだったのかもしれないしな	25	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_007;talk_text	"だがやりすぎると、ホンマに殺されるかもしれんで。
+
+しばらくは大人しくしといた方がええ。"	"だがやりすぎると　本当に殺されるかもしれないぞ
+
+しばらくは大人しくしておいた方がいい"	44	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_1600_004;talk_text	"す、すまねぇ……
+
+この恩は、必ず返すぜ。"	"す　すまねぇ……
+
+この恩は　必ず返すぜ"	21	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_1600_002;talk_text	"これ、八島組から盗った分です。
+
+すんませんでした。"	"これ　八島組から盗った分です
+
+すんませんでした"	26	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_008;talk_text	"さて、これで組に報告できるわ。
+
+助かったで、マスター。"	"さて　これで組に報告できるな
+
+助かった　マスター"	28	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_009;talk_text	"……妙なこと触れ込まんといてな。
+
+あることないこと言われたらかなわんわ。"	"……妙なこと触れ込まないでくれよな
+
+あることないこと言われたらかなわない"	37	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_010;talk_text	そういうのいらんねん……	そういうのいらないんだよな……	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_011;talk_text	ほな、俺は組に戻るわ。	それじゃあ　俺は組に戻る	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_012;talk_text	（さて、八島組に報告しに行こか）	（さて　八島組に報告しに行こう）	16	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_013;talk_text	……そんなん、信じるわけないやろ。	……そんなの　信じるわけないだろ	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_014;talk_text	"義賊やったとしてもれっきとした悪党や。
+
+そんなヤツの言葉いちい鵜呑みにしとったら
+
+いつか自分がやられてまう。"	"義賊だったとしてもれっきとした悪党だ
+
+そんなヤツの言葉いちいち鵜呑みにしてたら
+
+いつか自分がやられてしまう"	56	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_014b;talk_text	"この世界は甘いヤツから死んでいく。
+
+悪く思わんといてや。"	"この世界は甘いヤツから死んでいく
+
+悪く思わないでくれ"	29	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_1600_004;talk_text	よくも……　よくも、父ちゃんを……！	よくも……　よくも　父ちゃんを……！	18	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_015;talk_text	"この街で悪さをした報いや。
+
+今日はこのカシラだけで勘弁したる。"	"この街で悪さをした報いだ
+
+今日はこのカシラだけで勘弁してやる"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_1600_006;talk_text	"……お前の顔、絶対に忘れねぇ……
+
+父ちゃんの仇、絶対に取ってやるからな……"	"……お前の顔　絶対に忘れねぇ……
+
+父ちゃんの仇　絶対に取ってやるからな……"	38	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_016;talk_text	"自分のやったことは責任をとらなあかん。
+
+正義かどうかなんて、てめぇの物差しでしかないんや。"	"自分のやったことは責任をとらなきゃいけない
+
+正義かどうかなんて　てめぇの物差しでしかないんだ"	47	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_017;talk_text	……あぁ。	……あぁ	5	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_018;talk_text	ほな、俺は組に戻るわ。	それじゃあ　俺は組に戻る	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_1600_019;talk_text	（……八島組に報告しに行こ）	（……八島組に報告しに行こう）	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_d01_1700_001;talk_text	あら、薬の買い出しに行って来てくれるのかい？	あら　薬の買い出しに行って来てくれるのかい？	22	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1800_001;talk_text	その薬、俺が買うてきたるわ。	その薬　俺が買ってきてやるよ	14	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1800_001;talk_text	"ありがとう、助かるよ。
+
+アタシはサクラ。よろしくね。"	"ありがとう　助かるよ
+
+アタシはサクラ　よろしくね"	27	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1800_002;talk_text	じゃあついてきて。	じゃあついてきて	9	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_002;talk_text	ちょっと、レディを待たせる気？	ちょっと　レディを待たせる気？	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_003;talk_text	ほら、いくわよ。	ほら　いくわよ	8	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_004;talk_text	"そ。アタシら遊女はこの辺で身を寄せ合って
+
+暮らしてるのさ。"	"そ　アタシら遊女はこの辺で身を寄せ合って
+
+暮らしてるのさ"	30	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_004b;talk_text	"元気なうちは気ままに生きれて良いんだけど、
+
+病気には勝てないんだよね。"	"元気なうちは気ままに生きれて良いんだけど
+
+病気には勝てないんだよね"	36	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_005;talk_text	"それならネギでも巻いて寝てりゃ直るさ。
+
+あの子はちょっと厄介な病気をもらっちまってね。"	"それならネギでも巻いて寝てりゃ直るさ
+
+あの子はちょっと厄介な病気をもらっちまってね"	44	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_005b;talk_text	"特別な薬が必要なんだけど、アタシらみたいな
+
+身分のもんには売ってくれないんだ。"	"特別な薬が必要なんだけど　アタシらみたいな
+
+身分のもんには売ってくれないんだ"	40	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_005c;talk_text	"……アンタ、八島組のもんだろ。
+
+薬局のオヤジは八島組には頭があがらない。"	"……アンタ　八島組のもんだろ
+
+薬局のオヤジは八島組には頭があがらない"	37	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1900_003;talk_text	"だから、八島組の遣いだって言って
+
+俺に薬を買ってこいって？"	"だから　八島組の遣いだって言って
+
+俺に薬を買ってこいって？"	30	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_006;talk_text	話が早くて助かるよ。	話が早くて助かるよ	10	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_006b;talk_text	……頼む。あの子のために買って来てもらえないかい。	……頼む　あの子のために買って来てもらえないかい	25	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_006c;talk_text	"そうしたら泥棒の情報はいくらでも教えるさ。
+
+この辺りの事なら何でも知ってるからね。"	"そうしたら泥棒の情報はいくらでも教えるさ
+
+この辺りの事なら何でも知ってるからね"	42	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1900_004;talk_text	……分かった。なんていう薬を買ったらええんや？	……分かった　なんていう薬を買ったらいいんだ？	23	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_1900_007;talk_text	"“ピリン救蕩”っていう飲み薬さ。
+
+頼んだよ。"	"“ピリン救蕩”っていう飲み薬さ
+
+頼んだよ"	23	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_1900_005;talk_text	分かった。	分かった	5	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2000_001;talk_text	"八島組のもんや。
+
+ピリン救蕩っちゅう薬もらえるか？"	"八島組のものだ
+
+ピリン救蕩っていう薬もらえるか？"	26	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2000_002;talk_text	"まぁ、姐さんがちょっとな。
+
+急いでるんや！　はよくれや！"	"まぁ　姐さんがちょっとな
+
+急いでるんだ！　早くくれよ！"	29	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2000_003;talk_text	……ちょっと持ち合わせが。	……ちょっと持ち合わせが	13	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2000_005;talk_text	これで足りるやろ。	これで足りるだろ	9	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2000_006;talk_text	（はよサクラのところに持っていったろ）	（早くサクラのところに持っていってやろう）	21	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_d01_2100_001;talk_text	どぉ？　買ってきてくれた？	どぉ？買ってきてくれた？	13	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2200_001;talk_text	"ほれ。買ってきたで。
+
+これでええんやろ。"	"ほら　買ってきたぞ
+
+これでいいんだろ"	21	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_p01_2200_001b;talk_text	ちょっと待ってておくれ。	ちょっと待ってておくれ	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_p01_2200_002;talk_text	"……落ち着いたみたい。
+
+本当に助かったよ。"	"……落ち着いたみたい
+
+本当に助かったよ"	22	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2200_002;talk_text	そらよかったわ。	それはよかったな	8	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_p01_2200_003;talk_text	"それじゃ、今度はアタシの番だね。
+
+泥棒の居場所が知りたいんだったね。"	"それじゃ　今度はアタシの番だね
+
+泥棒の居場所が知りたいんだったね"	35	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_p01_2200_003b;talk_text	"それとも、ちょっと良いことしていくかい？
+
+特別にサービスしても良いよ？"	"それとも　ちょっと良いことしていくかい？
+
+特別にサービスしても良いよ？"	36	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_p01_2200_003;talk_text	……泥棒の場所教えてくれや。	……泥棒の場所教えてくれ	14	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_p01_2200_004;talk_text	アハハ。冗談さね。	アハハ　冗談さね	9	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_p01_2200_004b;talk_text	こっちだよ、ついてきな。	こっちだよ　ついてきな	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_2300_001;talk_text	え？　あんたも一緒に来るんか？	え？　あんたも一緒に来るのか？	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2300_001;talk_text	"ま、その方が都合がいいこともあるんだよ。
+
+悪いようにはしないから。"	"ま　その方が都合がいいこともあるんだよ
+
+悪いようにはしないから"	34	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2300_001b;talk_text	"まぁ俺は盗られた金取り返せたら
+
+何でもええんやけど。"	"まぁ俺は盗られた金取り返せたら
+
+何でもええんやけど"	27	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2400_001;talk_text	この辺りだよ。待ってりゃくるはずさ。	この辺りだよ　待ってりゃくるはずさ	18	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_2500_001;talk_text	"今更やがこんな真っ昼間に泥棒なんて出るんか？
+
+普通夜やろ。"	"今更だがこんな真っ昼間に泥棒なんて出るのか？
+
+普通夜だろ"	30	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2500_001;talk_text	"その油断を逆手に取ってるんだよ。
+
+人通りのない昼間が一番の穴場なのさ。"	"その油断を逆手に取ってるんだよ
+
+人通りのない昼間が一番の穴場なのさ"	36	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2500_001b;talk_text	"店の子が言ってたんだ。怪しい連中が
+
+ここの下見をしてるみたいだって。"	"店の子が言ってたんだ　怪しい連中が
+
+ここの下見をしてるみたいだって"	35	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2500_001c;talk_text	用意周到な組織犯って感じらしい。	用意周到な組織犯って感じらしい	16	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_2500_002;talk_text	ってことは、泥棒は一人やないんか。	ってことは　泥棒は一人じゃないのか	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2500_002;talk_text	"そういうこと。徒党を組んでやってるらしい。
+
+多勢に無勢になっちゃうかもね。"	"そういうこと　徒党を組んでやってるらしい
+
+多勢に無勢になっちゃうかもね"	38	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_s01_2500_003;talk_text	……そんときはそんときや。	……そのときはそのときだ	13	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2500_004;talk_text	ちょっと、レディを待たせる気？	ちょっと　レディを待たせる気？	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_s01_2500_005;talk_text	ほら、いくわよ。	ほら　いくわよ	8	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2600_001;talk_text	っと、言っている間に来みたいだよ。	っと　言っている間に来みたいだよ	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2600_001;talk_text	逃がさんで！　先手必勝や！	逃がさないぞ！　先手必勝だ！	14	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2600_002;talk_text	"そこまでや！　コソ泥！
+
+八島組から盗んだ金、返してもらうで！"	"そこまでだ！　コソ泥！
+
+八島組から盗んだ金　返してもらう！"	31	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_2600_001;talk_text	くそっ、見つかったか！	くそっ　見つかったか！	11	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_2600_001b;talk_text	お前ら、手ぇ貸してくれ！	お前ら　手ぇ貸してくれ！	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_2600_002;talk_text	"お前に恨みはないが、見られた以上生かしちゃおけねぇ。
+
+俺達がいなくなったらこの街は終わっちまうんだ。"	"お前に恨みはないが　見られた以上生かしちゃおけねぇ
+
+俺達がいなくなったらこの街は終わっちまうんだ"	51	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_buka1_side_c01_2600_002;talk_text	す、すまねぇカシラ！	す　すまねぇカシラ！	10	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_buka2_side_c01_2600_002;talk_text	"あの人には、サクラさん相手は分が悪い！
+
+この現場からは降りさせてくれ……！"	"あの人には　サクラさん相手は分が悪い！
+
+この現場からは降りさせてくれ……！"	38	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2600_003;talk_text	……？　どういうこっちゃ。	……？　どういうことだ	13	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2600_002;talk_text	"店の馴染み客が泥棒一味にいるらしいって
+
+聞いてたけど、やっぱりか。"	"店の馴染み客が泥棒一味にいるらしいって
+
+聞いてたけど　やっぱりか"	34	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2600_002b;talk_text	"アイツらの人には言えないような弱みを
+
+たくさん握ってるからね。"	"アイツらの人には言えないような弱みを
+
+たくさん握ってるからね"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2600_002c;talk_text	"アタシに危害を加えたと知れたら
+
+社外的に死んじまうってことさ。"	"アタシに危害を加えたと知れたら
+
+社外的に死んじまうってことさ"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2600_004;talk_text	（そんなおっかない人やったんか……）	（そんな恐ろしい人だったのか……）	18	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_2600_004;talk_text	"くそ、とにかくやるしかねぇ！
+
+死ねやぁ！"	くそ　とにかくやるしかねぇ！　死ねやぁ！	21	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_2800_001;talk_text	くそっ、ここまでか……	くそっ　ここまでか……	11	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_001;talk_text	もうええやろ。大人しく盗んだ金返せや。	もういいだろう　大人しく盗んだ金を返せ	19	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_2800_002b;talk_text	"それは出来ない。あの金は渡せない……
+
+へへっ。殺すなら殺せよ。"	"それは出来ない　あの金は渡せない……
+
+へへっ　殺すなら殺せよ"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_002;talk_text	なんやと？	なんだと？	5	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_2800_001;talk_text	"そのコソ泥だけどな。金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ。"	"そのコソ泥だけどな　金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ"	43	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_2800_001b;talk_text	"殺した後に金を取り戻すってのも悪くねぇかもな。
+
+その辺はお前に任せる。じゃあな。"	"殺した後に金を取り戻すってのも悪くねぇかもな
+
+その辺はお前に任せる　じゃあな"	41	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_2800_001;talk_text	"ま、待ってくれ。
+
+カシラを……　父ちゃんを殺さないでくれ！"	"ま　待ってくれ
+
+カシラを……　父ちゃんを殺さないでくれ！"	30	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_2800_001b;talk_text	"父ちゃんは、この街の日の当たらねぇ人たちに
+
+金やメシを配ってんだ。金持ちばっか肥えやがって
+
+このくらい……　いいじゃねぇか……"	"父ちゃんは　この街の日の当たらねぇ人たちに
+
+金やメシを配ってんだ　金持ちばっか肥えやがって
+
+このくらい……　いいじゃねぇか……"	65	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_2800_001c;talk_text	"あんた、八島組って言ったな。
+
+組から盗った金だけは返す……
+
+だからここは見逃してくれ……"	"あんた　八島組って言ったな
+
+組から盗った金だけは返す……
+
+だからここは見逃してくれ……"	46	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_001;talk_text	"やっぱる噂は本当だったんだね。
+
+コソ泥はネズミ小僧、義賊なんじゃないか、って。"	"やっぱる噂は本当だったんだね
+
+コソ泥はネズミ小僧　義賊なんじゃないか　って"	40	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_005;talk_text	……分かったわ。	……分かった	8	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_006;talk_text	"俺は組の金さえ返ってくればなんでもええ。
+
+他のもんには興味ないわ。"	"俺は組の金さえ返ってくればなんでもいい
+
+他のものには興味ない"	34	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_006b;talk_text	"せやけど、やりすぎたらホンマに殺されるかもしれんで。
+
+しばらくは大人しくしといた方がええ。"	"だが　やりすぎたら本当に殺されるかもしれないぞ
+
+しばらくは大人しくしておいた方がいい"	46	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_boss_side_c01_2800_004;talk_text	"す、すまねぇ……
+
+この恩は、必ず返すぜ。"	"す　すまねぇ……
+
+この恩は　必ず返すぜ"	21	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_2800_002;talk_text	"これ、八島組から盗った分です。
+
+すんませんでした。"	"これ　八島組から盗った分です
+
+すんませんでした"	26	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_007;talk_text	"さて、これで組に報告できるわ。
+
+助かったで。"	"さて　これで組に報告できる
+
+助かった"	23	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_002;talk_text	"フフッ。アタシの方こそいいものを見せてもらったよ。
+
+店の子たちに土産話ができた。"	"フフッ　アタシの方こそいいものを見せてもらったよ
+
+店の子たちに土産話ができた"	41	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_002b;talk_text	アンタ、ウチの店にきたらモテモテかもね。	アンタ　ウチの店にきたらモテモテかもね	20	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_008;talk_text	"……妙なこと吹き込まんといてな。
+
+あることないこと言われたらかなわんわ。"	"……妙なこと触れ込まないでくれよな
+
+あることないこと言われたらかなわない"	37	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_009;talk_text	だから、そういうことやないねん……	だから　そういうことじゃないんだよな……	20	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_010;talk_text	ほな、俺は組に戻るわ。	それじゃあ　俺は組に戻る	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_004;talk_text	"アタシも長屋に戻ろうかね。
+
+あの子の看病もしないといけないし。
+
+それじゃあ、またね。"	"アタシも長屋に戻ろうかね
+
+あの子の看病もしないといけないし
+
+それじゃあ　またね"	44	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_011;talk_text	（さて、八島組に報告しに行こか）	（さて　八島組に報告しに行こうか）	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_012;talk_text	……そんなん、信じるわけないやろ。	……そんなの　信じるわけないだろ	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_013;talk_text	"義賊やったとしてもれっきとした悪党や。
+
+そんなヤツの言葉を鵜呑みにしとったら
+
+いつか自分がやられてまう。"	"義賊だったとしてもれっきとした悪党だ
+
+そんなヤツの言葉を鵜呑みにしてたら
+
+いつか自分がやられてしまう"	54	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_013b;talk_text	"甘いヤツから死んでいくんや。
+
+悪く思わんといてや。"	"甘いヤツから死んでいくんだ
+
+悪く思わないでくれ"	26	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_2800_004;talk_text	よくも……　よくも、父ちゃんを……！	よくも……　よくも　父ちゃんを……！	18	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_014;talk_text	"この街で悪さをした報いや。
+
+今日はこのカシラだけで勘弁したる。"	"この街で悪さをした報いだ
+
+今日はこのカシラだけで勘弁してやる"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	thief_son_side_c01_2800_006;talk_text	"……お前の顔、絶対に忘れねぇ……
+
+父ちゃんの仇、絶対に取ってやるからな……"	"……お前の顔　絶対に忘れねぇ……
+
+父ちゃんの仇　絶対に取ってやるからな……"	38	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_006;talk_text	……これが、ネズミ小僧の末路ってやつか。	……これが　ネズミ小僧の末路ってやつか	20	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_015;talk_text	"自分のやったことは責任をとらなあかん。
+
+正義かどうかなんて、てめぇの物差しでしかないんや。"	"自分のやったことは責任をとらなきゃいけない
+
+正義かどうかなんて　てめぇの物差しでしかないんだ"	47	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_007;talk_text	……そうだね。その通りなんだろうさ。	……そうだね　その通りなんだろうさ	18	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_007b;talk_text	"これで親玉がいなくなり組織も瓦解。
+
+じきに泥棒騒ぎは収まるだろうね。
+
+街の人にはそう言っておくよ。"	"これで親玉がいなくなり組織も瓦解
+
+じきに泥棒騒ぎは収まるだろうね
+
+街の人にはそう言っておくよ"	51	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_016;talk_text	……あぁ。	……あぁ	5	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_017;talk_text	ほな、俺は組に戻るわ。	それじゃあ　俺は組に戻る	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	sakura_side_c01_2800_008;talk_text	"アタシも長屋に戻るよ。
+
+それじゃあ、またね。"	"アタシも長屋に戻るよ
+
+それじゃあ　またね"	23	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_2800_018;talk_text	（さて、八島組に報告しに行こか）	（さて　八島組に報告しに行こうか）	17	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_d01_2900_001;talk_text	"コソ泥の件、早めに頼むぜ。
+
+カフェーのマスターに聞きに行ってみな。"	"コソ泥の件　早めに頼むぜ
+
+カフェーのマスターに聞きに行ってみな"	34	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_d01_2900_002;talk_text	"コソ泥の件、早めに頼むぜ。
+
+マスターと一緒にいるってことは調査進んでるんだろうが、
+
+あまり大ごとにしてくれるなよ。"	"コソ泥の件　早めに頼むぜ
+
+マスターと一緒にいるってことは調査進んでるんだろうが
+
+あまり大ごとにしてくれるなよ"	59	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_d01_2900_003;talk_text	"コソ泥の件、早めに頼むぜ。
+
+カフェーのマスターに聞きに行ってみな。"	"コソ泥の件　早めに頼むぜ
+
+カフェーのマスターに聞きに行ってみな"	34	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_d01_2900_004;talk_text	"コソ泥の件、早めに頼むぜ。
+
+女遊びしてる場合じゃねぇぞ？"	"コソ泥の件　早めに頼むぜ
+
+女遊びしてる場合じゃねぇぞ？"	29	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_001;talk_text	"大東、戻ったか。
+
+それで、頼んでた件はどうなった。"	"大東　戻ったか
+
+それで　頼んでた件はどうなった"	26	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_3000_001;talk_text	"取り返してきましたよ。
+
+これで良いんですよね。"	"取り返してきましたよ
+
+これで良いんですよね"	24	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_002;talk_text	"どれ。確かに盗られた分キッチリあるな。
+
+早かったじゃねぇか。でかしたぜ大東。"	"どれ　確かに盗られた分キッチリあるな
+
+早かったじゃねぇか　でかしたぜ大東"	39	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_002b;talk_text	ほら、小遣いだ。	ほら　小遣いだ	8	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_003;talk_text	……兄貴には言うんじゃねぇぞ。	……兄貴には言うんじゃねぇぞ	15	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_kashira_side_c01_3000_001;talk_text	おう、なにコソコソ話ししてんだ。	おう　なにコソコソ話ししてんだ	16	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_004;talk_text	"お、親父。いえ、ちょっと大東のヤツを
+
+可愛がってただけですよ。なっ？"	"お　親父　いえ　ちょっと大東のヤツを
+
+可愛がってただけですよ　なっ？"	35	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_kashira_side_c01_3000_002;talk_text	"ふん。そりゃいい。
+
+戻ってきた金はちゃんと金庫に入れておけよ。"	"ふん　そりゃいい
+
+戻ってきた金はちゃんと金庫に入れておけよ"	32	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_kashira_side_c01_3000_002b;talk_text	……次はねぇからな。	……次はねぇからな	10	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_3000_003;talk_text	バレてたじゃないですか。	バレてたじゃないですか	12	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_006;talk_text	"よう大東。聞いたぜ？
+
+泥棒ぶっ殺して金取り戻したそうじゃねぇか。"	"よう大東　聞いたぜ？
+
+泥棒ぶっ殺して金取り戻したそうじゃねぇか"	33	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_006b;talk_text	"やるなぁ。お前のこと見直したぜ。
+
+まさか本当に殺っちまうなんてなぁ。"	"やるなぁ　お前のこと見直したぜ
+
+まさか本当に殺っちまうなんてなぁ"	35	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_007;talk_text	"俺はお前に任せるって言っただけだ。
+
+まぁその選択、俺は嫌いじゃねぇ。"	"俺はお前に任せるって言っただけだ
+
+まぁその選択　俺は嫌いじゃねぇ"	35	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_007b;talk_text	"上からの命令は絶対だからな。
+
+目的のために手段を択ばないヤツは強くなるぜ。
+
+この世界じゃな。"	"上からの命令は絶対だからな
+
+目的のために手段を択ばないヤツは強くなるぜ
+
+この世界じゃな"	48	2025-03-12
+talk\text\crw_side01.lxtxt	12	daito_side_c01_3000_005;talk_text	……これがその金です。	……これがその金です	11	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_008;talk_text	どれ。確かに盗られた分キッチリあるな。	どれ　確かに盗られた分キッチリあるな	19	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_008b;talk_text	"ほら、小遣いだ。
+
+イロつけてやるよ。"	"ほら　小遣いだ
+
+イロつけてやるよ"	19	2025-03-12
+talk\text\crw_side01.lxtxt	12	yashima_shatei_side_c01_3000_009;talk_text	"じゃあまたな。
+
+今度は俺と組んでデカいことやろうぜ。ガッハッハ。"	"じゃあまたな
+
+今度は俺と組んでデカいことやろうぜ　ガッハッハ"	33	2025-03-12
+talk\text\crw_side01.lxtxt	15	sakura_side_d01_2100_001;talk_text	どぉ？買ってきてくれた？	どぉ？　買ってきてくれた？	13	2025-03-15
+talk\text\crw_side01.lxtxt	22	daito_side_p01_0300_008;talk_text	"あんたのお眼鏡にかなったら合格っていうわけか
+
+いいだろう……"	あんたのお眼鏡にかなったら合格っていうわけか	31	2025-03-24
+talk\text\crw_side01.lxtxt	22	daito_side_p01_0300_008b;talk_text	なら――	"（この店のツケ野郎を倒せば情報をくれるらしい
+
+　少し遠回りになるが、仕方ねぇな）"	41	2025-03-24
+fate\event.lxtxt	56	p_yashimaaniki_f;name	好感	目をかけている	7	2025-03-31
+fate\event.lxtxt	56	p_yashimaaniki_f;event_info_message	${human1}に好感をもたれました	${human1}に気に入られました	19	2025-03-31
+fate\event.lxtxt	56	p_nezuminidaime_h;name	親父の仇	憎しみ	4	2025-03-31
+fate\event.lxtxt	56	p_nezuminidaime_h;event_info_message	${human1}に敵視されました	${human1}から憎しみを抱かれました	21	2025-03-31
+talk\text\crw_side04.lxtxt	86	urabuki_side_p04_0100_003b;talk_text	"お前とはこれからいい取り引き相手になるかもしれねぇ。
+
+困ったことがあったら俺に聞きな。
+
+役に立つもん斡旋してやるぜ。"	"お前とはこれから
+
+いい取り引き相手になるかもしれねぇ。
+
+"	60	2025-04-06
+talk\text\crw_side04.lxtxt	86	urabuki_side_p04_0100_003c;talk_text	今日はお近づきの印ってことでこれをやるよ。	"困ったことがあったら俺に聞きな。
+
+役に立つもん斡旋してやるぜ。"	32	2025-04-06
+fate\mission.lxtxt	56	fate_scenario_001;finish_info	縁シナリオ：「${mission}」が完了しました。	縁シナリオ：「${mission}」を達成しました	26	2025-03-31
+fate\mission.lxtxt	56	fate_scenario_002;finish_info	縁シナリオ：「${mission}」が完了しました。	縁シナリオ：「${mission}」を達成しました	26	2025-03-31
+fate\mission.lxtxt	56	life_mission_001;finish_info	生業ミッション：「${mission}」が完了しました。	生業ミッション：「${mission}」を達成しました	28	2025-03-31
+fate\mission.lxtxt	56	life_mission_002;finish_info	生業ミッション：「${mission}」が完了しました。	生業ミッション：「${mission}」を達成しました	28	2025-03-31
+fate\mission.lxtxt	56	life_mission_003;finish_info	生業ミッション：「${mission}」が完了しました。	生業ミッション：「${mission}」を達成しました	28	2025-03-31
+fate\person.lxtxt	56	higashide;position_name	大東	八島組	3	2025-03-31
+fate\person.lxtxt	56	yashimawakashuu;name	八島組若衆	若衆	5	2025-03-31
+fate\person.lxtxt	56	yashimawakashuu;position_name	若衆	八島組	3	2025-03-31
+fate\person.lxtxt	56	yashimaaniki;position_name	兄貴分	八島組	3	2025-03-31
+fate\person.lxtxt	56	cafemaster;position_name	マスター	カフェ	4	2025-03-31
+fate\person.lxtxt	56	yamishouninn;position_name	闇商人		3	2025-03-31
+fate\person.lxtxt	56	nezumikozo;position_name	ねずみ小僧	義賊	5	2025-03-31
+fate\person.lxtxt	56	nezuminidaime;name	息子	ねずみ小僧の息子	8	2025-03-31
+fate\person.lxtxt	56	nezuminidaime;position_name	息子	義賊	2	2025-03-31
+fate\person.lxtxt	56	tukeotoko;position_name	ツケ男		3	2025-03-31
+fate\person.lxtxt	56	chouninn;position_name	町人	債権者	3	2025-03-31
+fate\person.lxtxt	56	tachinbo1;name	立ちんぼA	立ちんぼ	5	2025-03-31
+fate\person.lxtxt	56	tachinbo1;position_name	立ちんぼA	立ちんぼ	5	2025-03-31
+talk\text\crw_mission_001.lxtxt	46	chinpira_mission_popup001_003;talk_text	俺が嫌なんか？ おぉ？	俺が嫌なんか？　おぉ？	11	2025-03-30
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0200_yashima_shatei,YASHIMA_SHATEI_SIDE_P01_0200_003B);message	"それに　まだ組の金が盗られたことは
+
+兄貴たちもまだ知らねぇ"	それに　まだ組の金が盗られたことは兄貴たちもまだ知らねぇ	30	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0200_yashima_shatei,YASHIMA_SHATEI_SIDE_P01_0200_004B);message	"ちゃんと金が戻ってきたらお前にも
+
+小遣いをやるよ"	ちゃんと金が戻ってきたらお前にも小遣いをやるよ	25	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0200_daito,DAITO_SIDE_P01_0200_005);message	……分かりました	分かりました	8	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0200_daito,DAITO_SIDE_P01_0200_005B);message	"それで　その泥棒ってのはどんな背格好で
+
+どこにいるんです？"	それで　その泥棒ってのはどんな背格好でどこにいるんです？	30	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0200_daito,DAITO_SIDE_P01_0200_007);message	"（組の金盗まれたくせに調べるのは面倒とか
+
+　いい性格してるな）"	（組の金盗まれたくせに調べるのは面倒とかいい性格してるな）	32	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0200_yashima_shatei,YASHIMA_SHATEI_SIDE_P01_0200_008);message	"そのコソ泥だけどな　金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ"	"そのコソ泥だけどな
+
+金さえ戻ってくんならぶっ殺したっていいぜ？"	42	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0200_yashima_shatei,YASHIMA_SHATEI_SIDE_P01_0200_008B);message	殺した後に金を取り戻すってのも悪くねぇかもな	"どうせクズなんだ
+
+殺した後に金を取り戻すってのも悪くねぇかもな"	32	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0300_daito,DAITO_SIDE_P01_0300_003);message	本当か……！	本当か！	6	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0300_cafe_master,CAFE_MASTER_SIDE_P01_0300_006F);message	"そいつを一緒に追い払ってくれたら情報を教えて
+
+差し上げましょう"	"そいつを一緒に追い払ってくれたら
+
+情報を教えて差し上げましょう"	32	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0300_daito,DAITO_SIDE_P01_0300_008);message	"あんたのお眼鏡にかなったら合格っていうわけか
+
+いいだろう……"	あんたのお眼鏡にかなったら合格っていうわけか	31	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_p01_0300_daito,DAITO_SIDE_P01_0300_008B);message	なら――	"（この店のツケ野郎を倒せば情報をくれるらしい
+
+　少し遠回りになるが　仕方ねぇな）"	41	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_s01_0600_cafe_master,CAFE_MASTER_SIDE_S01_0600_001);message	"フフ……　これは頼もしい
+
+じゃあ　ともに外で迎え撃つとしましょうか"	"これは頼もしい
+
+じゃあ　ともに外で迎え撃つとしましょうか"	34	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_s01_0700_daito,DAITO_SIDE_S01_0700_001);message	"ともに迎え撃つって　もしかしてマスターも
+
+戦うのか？"	ともに迎え撃つって　もしかしてマスターも戦うのか？	27	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_0800_cafe_master,CAFE_MASTER_SIDE_C01_0800_001);message	……来ましたぞ　あの男です	来ましたぞ　あの男です	13	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_0800_gouman_tuke,GOUMAN_TUKE_SIDE_C01_0800_003B);message	……なるほど　用心棒を雇ったか	なるほど　用心棒を雇ったか	15	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_0800_cafe_master,CAFE_MASTER_SIDE_C01_0800_003);message	"はぁ……　話になりませんね
+
+こちらに何の利益もありません"	"話になりませんね
+
+こちらに何の利益もありません"	29	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1000_gouman_tuke,GOUMAN_TUKE_SIDE_C01_1000_001);message	ぐへぇ……		5	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1000_daito,DAITO_SIDE_C01_1000_001);message	"おう　これまで飲み食いした分の金置いて
+
+どっかいけ　アンタはもう出禁だ"	"おう　これまで飲み食いした分の金置いてどっかいけ
+
+アンタはもう出禁だ"	36	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_s01_1100_daito,DAITO_SIDE_S01_1100_002);message	……大東だ	大東だ	5	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_s01_1200_daito,DAITO_SIDE_S01_1200_002);message	"もっともらしいこと言ってるが
+
+新手の宣伝したいだけじゃないか"	もっともらしいこと言ってるが新手の宣伝したいだけじゃないか	31	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_s01_1200_cafe_master,CAFE_MASTER_SIDE_S01_1200_002);message	フフ　バレましたか	バレましたか	9	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_s01_1300_cafe_master,CAFE_MASTER_SIDE_S01_1300_002);message	"一瞬買い出しで店をあけた瞬間を狙われたようです……
+
+盗まれたのは金ではなく食材でしたが"	"一瞬買い出しで店をあけた瞬間を狙われたようです
+
+盗まれたのは金ではなく食材でしたが"	44	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_s01_1300_cafe_master,CAFE_MASTER_SIDE_S01_1300_003B);message	"ただ　コソ泥には妙な噂もあって
+
+盗んだ金を――"	ただ　コソ泥には妙な噂もあって　盗んだ金を――	24	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1400_cafe_master,CAFE_MASTER_SIDE_C01_1400_001);message	"っと　言っている間に来ました
+
+アイツです"	っと　言っている間に来ました　アイツです	21	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1400_thief_boss,THIEF_BOSS_SIDE_C01_1400_002);message	"お前に恨みはないが　見られて以上生かしちゃおけねぇ
+
+俺達がいなくなったらこの街は終わっちまうんだ"	"お前に恨みはないが　見られた以上生かしちゃおけねぇ
+
+俺達がいなくなったらこの街は終わっちまうんだ"	49	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_boss,THIEF_BOSS_SIDE_C01_1600_002B);message	"それは出来ない　あの金は渡せない……
+
+へへっ　殺すなら殺せよ"	"それは出来ない　あの金は渡せない
+
+殺すなら殺せよ"	31	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_1600_001);message	"そのコソ泥だけどな　金さえ戻ってくんなら
+
+ぶっ殺したっていいぜ？　どうせクズなんだ"	"そのコソ泥だけどな
+
+金さえ戻ってくんならぶっ殺したっていいぜ？"	42	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_1600_001B);message	"殺した後に金を取り戻すってのも悪くねぇかもな
+
+その辺はお前に任せる　じゃあな"	"どうせクズなんだ
+
+殺した後に金を取り戻すってのも悪くねぇかもな"	39	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_001);message	"ま　待ってくれ
+
+カシラを……　父ちゃんを殺さないでくれ！"	"ま　待ってくれ
+
+カシラを　父ちゃんを殺さないでくれ！"	29	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_001B);message	"父ちゃんは　この街の日の当たらねぇ人たちに
+
+金やメシを配ってんだ　金持ちばっか肥えやがって
+
+このくらい……　いいじゃねぇか……"	"父ちゃんは　この街の日の当たらねぇ人たちに
+
+金やメシを配ってんだ　金持ちばっか肥えやがって……"	65	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_001C);message	"あんた　八島組って言ったな
+
+組から盗った金だけは返す……
+
+だからここは見逃してくれ……"	このくらい　いいじゃねぇか	45	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_005);message	……分かった	分かった	6	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_boss,THIEF_BOSS_SIDE_C01_1600_003);message	え……	え	3	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_cafe_master,CAFE_MASTER_SIDE_C01_1600_002);message	……なんでこっちを見るんですか	なんでこっちを見るんですか	15	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_007);message	"だがやりすぎると　本当に殺されるかもしれないぞ
+
+しばらくは大人しくしておいた方がいい"	"だが　やりすぎたら本当に殺されるかもしれないぞ
+
+しばらくは大人しくしておいた方がいい"	43	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_boss,THIEF_BOSS_SIDE_C01_1600_004);message	"す　すまねぇ……
+
+この恩は　必ず返すぜ"	"す　すまねぇ
+
+この恩は　必ず返すぜ"	20	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_cafe_master,CAFE_MASTER_SIDE_C01_1600_003);message	"いえいえ　こちらこそいいものを見せてもらいましたよ
+
+フフ　常連の皆様に土産話ができた"	"いえいえ　こちらこそいいものを見せてもらいましたよ
+
+常連の皆様に土産話ができた"	43	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_009);message	"……妙なこと触れ込まないでくれよな
+
+あることないこと言われたらかなわない"	"妙なこと触れ込まないでくれよな
+
+あることないこと言われたらかなわない"	37	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_010);message	そういうのいらないんだよな……	そういうのいらないんだよな	15	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_013);message	……そんなの　信じるわけないだろ	そんなの　信じるわけないだろ	16	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_003);message	え……	え	3	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_014);message	"義賊だったとしてもれっきとした悪党だ
+
+そんなヤツの言葉いちいち鵜呑みにしてたら
+
+いつか自分がやられてしまう"	義賊だったとしてもれっきとした悪党だ	55	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_014B);message	"この世界は甘いヤツから死んでいく
+
+悪く思わないでくれ"	"そんなヤツの言葉いちいち鵜呑みにしてたら
+
+いつか自分がやられてしまう"	35	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_004);message	よくも……　よくも　父ちゃんを……！	よくも　よくも　父ちゃんを！	18	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_004B);message	殺してやる……！	殺してやる！	8	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_005);message	ぐはっ……　くそう……　くそう……	くそう　くそう……	17	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_thief_son,THIEF_SON_SIDE_C01_1600_006);message	"……お前の顔　絶対に忘れねぇ……
+
+父ちゃんの仇　絶対に取ってやるからな……"	"お前の顔　絶対に忘れねぇ
+
+父ちゃんの仇　絶対に取ってやるからな"	38	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_cafe_master,CAFE_MASTER_SIDE_C01_1600_007);message	……これが　ネズミ小僧の末路ですか	これが　ネズミ小僧の末路ですか	17	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_cafe_master,CAFE_MASTER_SIDE_C01_1600_008);message	……そうですね	そうですね	7	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_cafe_master,CAFE_MASTER_SIDE_C01_1600_008B);message	"親玉がいなくなり組織も瓦解して
+
+泥棒騒ぎは収まるでしょう
+
+心配していたお客様にはそうお伝えしておきます"	親玉がいなくなり組織も瓦解して泥棒騒ぎは収まるでしょう	53	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_017);message	……あぁ	あぁ	4	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_cafe_master,CAFE_MASTER_SIDE_C01_1600_009);message	"私も店に戻ります
+
+それでは"	私も店に戻ります　それでは	14	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_1600_daito,DAITO_SIDE_C01_1600_019);message	（……八島組に報告しに行こう）	（八島組に報告しに行こう）	15	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_daito,DAITO_SIDE_C01_3000_001);message	"取り返してきましたよ
+
+これで良いんですよね"	取り返してきましたよ　これで良いんですよね	22	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_3000_003);message	……兄貴には言うんじゃねぇぞ	兄貴には言うんじゃねぇぞ	14	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_3000_004);message	"お　親父　いえ　ちょっと大東のヤツを
+
+可愛がってただけですよ　なっ？"	"お　親父
+
+いえ　ちょっと大東のヤツを可愛がってただけですよ　なっ？"	35	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_3000_007);message	"俺はお前に任せるって言っただけだ
+
+まぁその選択　俺は嫌いじゃねぇ"	俺はお前に任せるって言っただけだ	33	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_3000_007B);message	"上からの命令は絶対だからな
+
+目的のために手段を択ばないヤツは強くなるぜ
+
+この世界じゃな"	"まぁその選択　俺は嫌いじゃねぇ
+
+上からの命令は絶対だからな"	45	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_daito,DAITO_SIDE_C01_3000_005);message	……これがその金です	これがその金です	10	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_3000_008B);message	"ほら　小遣いだ
+
+イロつけてやるよ"	ほら　小遣いだ　イロつけてやるよ	17	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_3000_009);message	"じゃあまたな
+
+今度は俺と組んでデカいことやろうぜ　ガッハッハ"	"じゃあまたな
+
+今度は俺と組んでデカいことやろうぜ"	31	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	28	(speech_side_c01_3000_daito,DAITO_SIDE_C01_3000_006);message	（……街に戻ろ）	（街に戻ろ）	8	2025-03-25
+sound\auth\subtitles\speech_list_crw_side01.lxtxt	78	(speech_side_c01_3000_yashima_shatei,YASHIMA_SHATEI_SIDE_C01_3000_004);message	"お　親父
+
+いえ　ちょっと大東のヤツを可愛がってただけですよ　なっ？"	"お　兄貴
+
+いえ　ちょっと大東のヤツを可愛がってただけですよ　なっ？"	34	2025-04-04
+talk\text\crw_mission_003.lxtxt	46	yuujo_mission_t003_0010;talk_text	きゃっ！ たくさん楽しめそう	きゃっ！　たくさん楽しめそう	14	2025-03-30

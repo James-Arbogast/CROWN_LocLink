@@ -1,0 +1,15 @@
+Hello,<br><br>
+
+This is QLINK with your daily progress report for Crown.<br><br>
+
+====MOST RECENT SNAPSHOT====<br><br>
+
+{progress_readydata}<br><br>
+{progress_dataV}<br><br>
+{progress_graphV}<br><br>
+
+====CHURN SNAPSHOT====<br><br>
+{progress_churn}<br><br>
+
+This report was compiled automatically by QLINK.<br>
+If something looks wrong, please contact James Arbogast (james.arbogast@segaamerica.com).

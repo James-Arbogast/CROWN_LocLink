@@ -1,0 +1,251 @@
+/* CSS Version 0.71.00 */
+/*------------------------------------------------------------------------------*/
+/*	ScopeDoc用標準スタイルシート											*/
+/*------------------------------------------------------------------------------*/
+
+body{
+	margin:1.0em 1.0em 1.0em 1.0em;	/* 文書とウィンドウとの隙間 */
+	font-size:9pt;				/* 本文の文字サイズ */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+									/* 本文のフォントファミリー */
+	line-height:1.4em;				/* （主に）本文の文字高さ */
+}
+
+div{
+	line-height:1.4em;				/* （主に）本文の文字高さ */
+}
+
+a        { line-height:1.0em;			}
+a:link   { text-decoration:none; 		}	/* 通常のリンク */
+a:visited{ text-decoration:none; 		}	/* 訪問済みリンク */
+a:hover  { text-decoration:underline;	}	/* マウスカーソルが上にある状態のリンク */
+
+img {
+	margin-right:0.5em;
+	border-style:none;						/* リンク画像 2009.02.18 uchidas */
+}
+
+br{
+	/* 改行 */
+	line-height:1.0em;	/* 空白行1行あたりの高さを指定する */
+}
+
+h1, h2, h3, h4, h5{
+	/* 見出しのフォントファミリー指定 */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1{
+	/* 見だしレベル1（"*"） */
+	font-size:medium;
+	font-weight: bold;
+	padding:0.5em 0em 0.5em 0.4em;
+	margin:1.0em 0em 0em 0em;
+	border-style:solid;
+	border-color:#5588EE;
+	border-width:0px 0px 0px 0.6em;
+	color:#000000;
+	background-color:#CCDDEE;
+/*	background-color:#5588EE;*/
+/*	background-color:#CCDDEE;*/
+}
+
+h2{
+	/* 見だしレベル2（"**"） */
+	font-size:small;
+	font-weight: bold;
+	padding:0.3em 0em 0.3em 0.4em;
+	margin:1.0em 0em 0em 0em;
+	border-style:solid;
+	border-color:#CCDDEE;
+	border-width:0px 0px 1px 0.6em;
+	color:#000000;
+/*	background-color:#CCDDEE;*/
+}
+
+h3{
+	/* 見だしレベル3（"***"） */
+	font-size:9pt;
+	padding:0em 0em 0em 0.4em;
+	margin:1.0em 0em 0em 0em;
+	border-style:solid;
+	border-color:#AAAAAA;
+	border-width:0px 0px 0px 1em;
+	color:#000000;
+/*	background-color:#EEEEEE;*/
+}
+
+ul, ol{
+	/* 箇条書き（"-"または"+"） */
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+table{
+	/* テーブル（"|"） */
+	font-size:9pt;
+	border-collapse:collapse;
+	margin:0em 0em 0em 2em;
+}
+
+th{
+	/* テーブルのヘッダ用カラム */
+	border:solid #666666 1px;
+	padding:0.4em 0.3em 0.4em 0.3em;
+	vertical-align:top;
+	background-color:#FFFFCC;
+}
+
+td{
+	/* テーブルのカラム */
+	border:solid #666666 1px;
+	padding:0.3em;
+	vertical-align:top;
+}
+
+pre{
+	/* 整形済み行（" "） */
+	color:#000000;
+	font: 100% Courier New, Courier, mono;
+	font-size:9pt;
+	padding:0.5em;
+	margin:0em 0em 0em 2.0em;
+	background:#F0F0F0;
+	line-height:1.0em;
+}
+
+blockquote{
+	/* 任意インデント（">"） */
+	margin:0em 0em 0em 2em;
+}
+
+.error {
+	/* エラーメッセージ用 */
+	color:#FF0000;
+}
+
+.sysinfo {
+	/* ScopeDocがHTML中に埋め込む情報用 */
+	color:#FF8000;
+}
+
+
+.expr {
+	/* 数式（暫定） */
+	vertical-align:middle;
+	margin:0.3em 0em 0.3em 0em;
+}
+
+.ls {
+	/* 下位ページ一覧（#ls()) */
+	border-left:0.6em solid #DDDDDD;
+/*	padding:0.2em 0em 0.2em 0em;*/
+}
+
+.ls3 {
+	/* 下位ページ一覧（#ls3()) */
+	border-left:0.6em solid #DDDDDD;
+/*	padding:0.2em 0em 0.2em 0em;*/
+}
+
+.contents {
+	/* ページ内見出し一覧（#contents()) */
+	font-weight:normal;
+	padding:0.5em 0em 0.5em 0em;
+	border-top:1px solid #AAAAAA;
+	border-left:1px solid #AAAAAA;
+	border-right:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD;
+	background-color:#F5F5F5;
+}
+
+.pagepath{
+	/* ページの階層位置表示（暫定） */
+	padding:0em 0em 0.5em 0em;
+}
+
+.header{
+	/* ページ名の表示 */
+	font-size:x-large;
+	font-weight: normal;
+	padding:0.2em 0em 1.5em 0em;
+	margin:0em 0em 0em 0em;
+	border-style:solid;
+	border-color:#5588EE;
+	border-width:0px 0px 0px 0.4em;
+	color:#FFFFFF;
+	background-color:#5588EE;
+}
+
+.indent{
+	/* インデントの距離指定用 */
+	margin-left:2em;
+}
+
+.s_header{
+	/* 小見出し ("&") */
+	font-size:9pt;
+	font-weight:bold;
+}
+
+.srccode{
+	/* ソースコード(codeプラグイン) */
+	color:#000000;
+	font: 100% Courier New, Courier, mono;
+	font-size:9pt;
+	padding:0.5em;
+	margin:0em 0em 0em 2.0em;
+	background:#F0F0F0;
+	line-height:1.0em;
+}
+
+.tutorial{
+	/* チュートリアル形式フォーマット（formatプラグイン、"TUTORIAL"指定 */
+	margin-left:0em;			/* 左マージンの解除 */
+}
+.tutorial TR TD {
+	/* チュートリアル形式では、セルの枠線は無し */
+	border-width:0px;
+}
+
+.odd {
+	/* 行ごとにテーブルの色を変更したい場合 */
+	/* background-color:#DDFFDD; */
+}
+
+.even {
+	/* 行ごとにテーブルの色を変更したい場合 */
+	/* background-color:#FFFFFF; */
+}
+
+
+.warn{
+	/* ユーザー定義フォーマット */
+	/* 注意書き用 */
+	margin-left:2.0em;
+	padding:0.6em;
+	background-color:#FFAAAA;
+	border-style:solid;
+	border-color:#FF8888;
+	border-width:1px 1px 1px 1px;
+/*	background-image:url(../userimages/warn.png);	*/
+}
+
+.pagenavi{
+	/* ページナビ用 */
+	width:100%;
+	margin-left:0px;
+	border:solid 1px #FFFFFF;
+	font-size:9pt;
+	color:#AAAAAA;
+}
+.prevpage{
+	/* 「前のページ」表示用 */
+	border:solid 1px #FFFFFF;
+}
+.nextpage{
+	/* 「次のページ」表示用 */
+	border:solid 1px #FFFFFF;
+	text-align:right;
+}
+
