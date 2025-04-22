@@ -21,6 +21,8 @@ from shutil import copy2
 import os, traceback
 from util.conflict_check.conflict_check import ConflictChecker
 from util.compliance_check import ComplianceChecker
+import json
+import sys
 
 def run(push_into_TextBridge: bool = False, pull_into_memoQ: bool = False, update_svn: bool = False, send_emails: bool = False, only_these_file: str = "", export_memoQ: bool = False, preserve_exported_files: bool = False, github: bool = False, debug: bool = False, reporting: bool = False, novoice: bool = False):
     ###TO DO
@@ -58,7 +60,6 @@ def run(push_into_TextBridge: bool = False, pull_into_memoQ: bool = False, updat
         curmonitor.add_event("Created memoQ DB.")
         
         #backup_status_dict - used for email reporting on xliff backup, churn json, rough t json, rough e json
-        
         if export_memoQ:
             print("Exporting memoQ files.")
             memoQDB.export_all_files(only_these)
@@ -107,6 +108,16 @@ def run(push_into_TextBridge: bool = False, pull_into_memoQ: bool = False, updat
             curmonitor.add_event("Updated local SVN repo.")
         else:
             curmonitor.add_event("Did not update local SVN repo.")
+
+        # check tool toggle file if the tool should stop running
+        with open(preferences.tool_on_off_toggle, "r", encoding='utf-8') as read_file:
+            loclink_toggle_data = json.load(read_file)
+            if not loclink_toggle_data["CanAutomationToolsSyncToRepository"]:
+                mail_handler = mailClient('10.30.100.69', 'AKIA6MYNKSLTF4CMKS4L', 
+                          'BFxgt15QWemeGTUknhoJxUsTHf5YiKn8JyvuKFeljMca', 'memoq@segaamerica.com')
+
+                mail_handler.send_HTML_message_with_image("james.arbogast@segaamerica.com", "CROWN LOCLINK TURNED OFF", "Crown's Loclink has been turned off.", "2")
+                sys.exit()
 
         # creates two databases; one for Lxtxt files (non-voiced files) and a seperate DB for lxvbf files which are voiced
         print("Creating LXTXT Database.")

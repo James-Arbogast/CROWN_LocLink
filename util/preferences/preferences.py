@@ -50,6 +50,7 @@ class Preferences:
         self.project_deadline = {}
         self.qlink_db = Path()
         self.loclink_created_files = []
+        self.tool_on_off_toggle = Path()
 
     def __enter__(self):
         return self
@@ -109,7 +110,10 @@ class Preferences:
                      "project_startdate":self.project_startdate,
                      "project_deadline":self.project_deadline,
                      "qlink_db":self.qlink_db,
-                     "loclink_created_files":self.loclink_created_files}
+                     "loclink_created_files":self.loclink_created_files,
+                     "tool_on_off_toggle":self.tool_on_off_toggle 
+                    }
+                    
         with open(self.json_location, "w") as write_file:
             json.dump(json_data, write_file)
 
@@ -147,6 +151,7 @@ class Preferences:
         created.project_deadline = data["project_deadline"]
         created.qlink_db = Path(data["qlink_db"])
         created.loclink_created_files = data["loclink_created_files"]
+        created.tool_on_off_toggle = data["tool_on_off_toggle"]
         return created
 
 inbox = "01 INBOX"
