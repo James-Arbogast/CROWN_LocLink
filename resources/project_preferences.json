@@ -22,6 +22,7 @@
     "lxvbf_folder": "Voice Files",
     "graphicFolder": "Graphic Text",
     "loclink_created_files": [],
+    "tool_on_off_toggle": "M:\\Projects\\Crown\\TextBridge\\trunk\\sync_tool_on_off_switch.json",
     "voice_only_folder": "Voice Files",
     "voice_script_suffix": "",
     "memoQ_server_address": "https://memoq.segaamerica.com:8080",
