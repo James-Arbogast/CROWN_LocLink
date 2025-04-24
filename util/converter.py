@@ -650,10 +650,10 @@ class FileConverter():
                                                     curState)
                 new_file.trans_units.set_value(new_trans_unit)
                 
-
-                if checker_dict[str(relpath_no_ext)]['Strings'][contextID]['Conflict']:
-                    checker_dict[str(relpath_no_ext)]['Strings'][contextID]['TB'] = curtarget
-                    checker_edited = True
+                if contextID in checker_dict[str(relpath_no_ext)]['Strings'].keys():
+                    if checker_dict[str(relpath_no_ext)]['Strings'][contextID]['Conflict']:
+                        checker_dict[str(relpath_no_ext)]['Strings'][contextID]['TB'] = curtarget
+                        checker_edited = True
 
                 #Add voice direction trans unit only if voice required
                 if ENcell.VoiceFileRequired:
@@ -783,8 +783,38 @@ class FileConverter():
                     enCell = new_language_cell
                     lxtxt_file.has_been_edited = True
                     lxtxt_en = ""
-                        
-                #If the source has changed, then skip.
+
+                ###STATUS HANDLING
+                #If JP cell is unused, make EN that status as well
+                if jpCell.Status in unusedStatuses:
+                    if enCell.Status != jpCell.Status:
+                        enCell.Status = jpCell.Status
+                        enCell.StatusModified.UserName = ModificationUser.default
+                        enCell.StatusModified.Time = DateTime.Now
+                        lxtxt_file.has_been_edited = True
+                #If JP unfinalized, make EN Editing
+                elif jpCell.Status in unfinalizedStatuses:
+                    if enCell.Status != LxCellStatus.Editing:
+                        enCell.Status = LxCellStatus.Editing
+                        enCell.StatusModified.UserName = ModificationUser.default
+                        enCell.StatusModified.Time = DateTime.Now
+                        lxtxt_file.has_been_edited = True
+                #If JP finalized and EN editing complete, mark Completed
+                elif matchedData.status in statusesForCompletedInTextBridge:
+                    if enCell.Status != LxCellStatus.Completed:
+                        enCell.Status = LxCellStatus.Completed
+                        enCell.StatusModified.UserName = ModificationUser.default
+                        enCell.StatusModified.Time = DateTime.Now
+                        lxtxt_file.has_been_edited = True
+                #If JP finalized and EN editing not complete, mark Editing
+                else:
+                    if enCell.Status != LxCellStatus.Editing:
+                        enCell.Status = LxCellStatus.Editing
+                        enCell.StatusModified.UserName = ModificationUser.default
+                        enCell.StatusModified.Time = DateTime.Now
+                        lxtxt_file.has_been_edited = True        
+
+                #If the source has changed, then skip
                 #EN Audio text goes in anyway since the JP source is always "different" from the xliff since it's blank in TB
                 #and nothing translates off the EN Audio (so far) so it doesn't hurt to push it every time.
                 if sourcedata != lxtxt_jp and "for_audio_language_en" not in contextID:
@@ -811,12 +841,21 @@ class FileConverter():
                 # Change the target and status if the text has been updated.
                 # If the text hasn't been updated, don't mess with it.
                 if lxtxt_en != matchedData.target:
+                    # Use the text checker to see if the (memoQ English) is the same as TB English
+                    if checker_dict[relpath_no_ext]['Strings'][contextID]['Conflict'] == True:
+                        print(f' File: {relpath}, ID: {contextID} has a conflict and could not be updated.')
+                        continue
                     # Set the text to the XLIFF data.
-                    row.LanguageCells[Language.English].Text = matchedData.target
-                    # Status mapping
-                    row.LanguageCells[Language.English].Status = LxCellStatus.Completed
+                    enCell.Text = matchedData.target
                     self.update_change_metadata('Language', row.LanguageCells[Language.English], True, True)
+
+                    if enCell.Status == LxCellStatus.Completed:
+                        for lang in Language.FIGScodes:
+                            if row.LanguageCells[lang]:
+                                row.LanguageCells[lang].Status = LxCellStatus.TranslationRequested
                     lxtxt_file.has_been_edited = True
+                    checker_dict[relpath_no_ext]['Strings'][contextID]['TB'] = matchedData.target
+                    checker_edited = True
                 #If the target text hasn't changed but the status is not completed, make it completed.
                 elif lxtxt_en == matchedData.target and row.LanguageCells[Language.English].Status in unfinalizedStatuses:
                     row.LanguageCells[Language.English].Status = LxCellStatus.Completed
