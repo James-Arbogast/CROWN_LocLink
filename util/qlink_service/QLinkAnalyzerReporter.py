@@ -180,6 +180,7 @@ class QlinkAnalyzerReporter:
         if isinstance(targetdate, datetime):
             targetdate = targetdate.date()
 
+        total_jpc = 0
         ready_JPC = 0
         T_total = 0
         R1_total = 0
@@ -196,9 +197,12 @@ class QlinkAnalyzerReporter:
             progress_data_to_add[file.relative_filepath]  = {'T_characters' : file_data.T_characters,
                                                 'R1_characters' : file_data.R1_characters,
                                                 'R2_characters' : file_data.R2_characters,
-                                                'ready_characters' : file_data.ready_characters}
+                                                'ready_characters' : file_data.ready_characters,
+                                                'total_characters' : file_data.total_characters}
 
         for file in progress_data_to_add.keys():
+            if 'total_characters' in progress_data_to_add[file].keys():
+                total_jpc += progress_data_to_add[file]['total_characters']
             if 'ready_characters' in progress_data_to_add[file].keys():
                 ready_JPC += progress_data_to_add[file]['ready_characters']
             if 'T_characters' in progress_data_to_add[file].keys():
@@ -211,7 +215,8 @@ class QlinkAnalyzerReporter:
         return [int(ready_JPC),
                 int(T_total),
                 int(R1_total),
-                int(R2_total)]
+                int(R2_total),
+                int(total_jpc)]
 
     def make_negative_burn_zeroes(self, array):
         for i, v in enumerate(array):
@@ -323,6 +328,7 @@ class QlinkAnalyzerReporter:
 
     def save_four_week_plot(self, projName: str, T_finish_date, R1_finish_date, R2_finish_date):
         plot_dates = []  # list of values
+        plot_JPCdata_total_with_unready = []
         plot_JPCdata_total = []  # list of values
         plot_unTdata_total = []
         plot_JPCdata_remaining_T = []  # list of values
@@ -344,6 +350,7 @@ class QlinkAnalyzerReporter:
             # Y axis.
             # Data for that date.
             curdate_burn_data = self.calculate_total_ready_JPC_json(snapshot_date,projName)
+            plot_JPCdata_total_with_unready.append([curdate_burn_data[4]])
             plot_JPCdata_total.append(curdate_burn_data[0])
             plot_unTdata_total.append(current_ready_volume - curdate_burn_data[1] - curdate_burn_data[2] - curdate_burn_data[3])
             plot_JPCdata_remaining_T.append(current_ready_volume - curdate_burn_data[1] - curdate_burn_data[2] - curdate_burn_data[3])
@@ -359,6 +366,7 @@ class QlinkAnalyzerReporter:
         ax.set_ylabel('JPC')
         ax.yaxis.set_major_formatter(
             matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+        ax.plot(plot_dates, plot_JPCdata_total_with_unready, color='purple', label="Total JPC")
         ax.plot(plot_dates, plot_JPCdata_total, color='red', label="Ready JPC")
         ax.plot(plot_dates, plot_JPCdata_remaining_T, color='blue', label="T Remaining")
         ax.plot(plot_dates, plot_JPCdata_remaining_R1, color='orange', label="R1 Remaining")
@@ -397,6 +405,8 @@ class QlinkAnalyzerReporter:
         graphDict = {}
         churnDict = {}
         for pName in projNames:
+            #Total JPC
+            current_total = self.qlinkdb.get_total_jpc(pName)
             #Ready JPC
             current_ready = self.qlinkdb.get_ready_jpc(pName)
             #Voice Only JPC
@@ -414,8 +424,11 @@ class QlinkAnalyzerReporter:
             #Percent Ready Complete
             if current_ready > 0:
                 pct_ready_complete = (int(game_text_complete[3]) + int(game_text_complete[2]) + int(game_text_complete[1])) / current_game_text
+                if pct_ready_complete >= 1: pct_ready_complete = 1
                 pct_ready_R1 = (int(game_text_complete[3]) + int(game_text_complete[2])) / current_game_text
+                if pct_ready_R1 >= 1: pct_ready_R1 = 1
                 pct_ready_R2 = int(game_text_complete[3]) / current_game_text
+                if pct_ready_R2 >= 1: pct_ready_R2 = 1
 
             else:
                 pct_ready_complete = 0
@@ -471,7 +484,8 @@ class QlinkAnalyzerReporter:
                 # Returns dictionary of churn data
                 churn_report = churny.full_report()
 
-            ready_data = {1: ["Total JPC", "{:,}".format(current_ready)],
+            ready_data = {23: ["Total JPC", "{:,}".format(current_total)],
+                        1: ["Ready JPC", "{:,}".format(current_ready)],
                         7: ["Game Text", "{:,}".format(current_game_text)],
                         8: ["Voice Only", "{:,}".format(current_voice_only)]}
             table_data = {3: ["Game Text Progress", pct_ready_complete_string, pct_ready_R1_string, pct_ready_R2_string],

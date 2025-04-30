@@ -220,6 +220,14 @@ class QLinkProgressTracker:
                 continue
             total_ready_jpc += file_data.ready_count
         return total_ready_jpc
+    
+    def get_total_jpc(self, projName: str):
+        total_jpc = 0
+        for file_data in self.progress_data[projName]:
+            if file_data.still_exists == False:
+                continue
+            total_jpc += file_data.character_count
+        return total_jpc
 
     def get_ready_game_text_jpc(self, projName: str):
         total_ready_jpc = 0
