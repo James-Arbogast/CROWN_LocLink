@@ -817,8 +817,6 @@ class FileConverter():
                 #If the source has changed, then skip
                 #EN Audio text goes in anyway since the JP source is always "different" from the xliff since it's blank in TB
                 #and nothing translates off the EN Audio (so far) so it doesn't hurt to push it every time.
-                if sourcedata != lxtxt_jp and "for_audio_language_en" not in contextID:
-                    continue
 
                 # Target handling
                 # If no target exists, add it in.
@@ -913,6 +911,12 @@ class FileConverter():
                     row.CommentCells.Add(new_comment_cell)
                     self.update_change_metadata('Comment', new_comment_cell, True, True)
                     lxtxt_file.has_been_edited = True
+
+        #if checker has been edited dump the updated conflict checker db into json file            
+        if checker_edited:
+            self.conflict_checker.data_dict['Files'] = checker_dict
+            with open(self.conflict_checker.db, 'w', encoding='utf8') as db:
+                json.dump(self.conflict_checker.data_dict, db, ensure_ascii=False)
 
     def update_change_metadata(self, type: str, cell, text: bool, status: bool):
         if type == 'Language':

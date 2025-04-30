@@ -424,8 +424,11 @@ class QlinkAnalyzerReporter:
             #Percent Ready Complete
             if current_ready > 0:
                 pct_ready_complete = (int(game_text_complete[3]) + int(game_text_complete[2]) + int(game_text_complete[1])) / current_game_text
+                if pct_ready_complete >= 1: pct_ready_complete = 1
                 pct_ready_R1 = (int(game_text_complete[3]) + int(game_text_complete[2])) / current_game_text
+                if pct_ready_R1 >= 1: pct_ready_R1 = 1
                 pct_ready_R2 = int(game_text_complete[3]) / current_game_text
+                if pct_ready_R2 >= 1: pct_ready_R2 = 1
 
             else:
                 pct_ready_complete = 0
