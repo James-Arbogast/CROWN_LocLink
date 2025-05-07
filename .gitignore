@@ -8,4 +8,8 @@ progress_data.csv
 resourceschange_tracking_data_backup.json
 *.pyc
 launch.json
-resources/*
+resources/*/*
+resources/conflict_check/conflict_check_compare.txt
+resources/conflict_check/conflict_check_db.json
+resources/conflict_check/conflict_check.xlsx
+resources/reporting_center/Crown_four_week_fig.png

@@ -441,8 +441,11 @@ class QlinkAnalyzerReporter:
                 voice_only_R1_JPC = voice_only_complete[1] + voice_only_complete[2]
                 voice_only_R2_JPC = voice_only_complete[2]
                 pct_voice_only_T = voice_only_T_JPC / current_voice_only
+                if pct_voice_only_T >= 1: pct_voice_only_T = 1
                 pct_voice_only_R1 = voice_only_R1_JPC / current_voice_only
+                if pct_voice_only_R1 >= 1: pct_voice_only_R1 = 1
                 pct_voice_only_R2 = voice_only_R2_JPC / current_voice_only
+                if pct_voice_only_R2 >= 1: pct_voice_only_R2 = 1
             else:
                 voice_only_T_JPC = 0
                 voice_only_R1_JPC = 0
